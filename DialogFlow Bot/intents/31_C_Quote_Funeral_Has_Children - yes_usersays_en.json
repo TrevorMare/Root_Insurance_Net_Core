@@ -1,0 +1,166 @@
+[
+  {
+    "id": "aaf2e717-af38-480a-a795-5fc0467cea62",
+    "data": [
+      {
+        "text": "confirm",
+        "alias": "qt_funeral_has_children",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1522658321
+  },
+  {
+    "id": "863ccedb-b2cf-4e7d-b805-5df45331224f",
+    "data": [
+      {
+        "text": "okay",
+        "alias": "qt_funeral_has_children",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522658321
+  },
+  {
+    "id": "b12fb029-6d5d-40a7-82cb-87d2fe29936e",
+    "data": [
+      {
+        "text": "ok",
+        "alias": "qt_funeral_has_children",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522658321
+  },
+  {
+    "id": "2ad3af6f-7d0d-49dd-b630-a3bc4a5ffdf5",
+    "data": [
+      {
+        "text": "of course",
+        "alias": "qt_funeral_has_children",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522658321
+  },
+  {
+    "id": "b0213f35-aa8e-44f7-8abd-608f7bab2bc1",
+    "data": [
+      {
+        "text": "sure",
+        "alias": "qt_funeral_has_children",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 1522658321
+  },
+  {
+    "id": "fb55a5cb-4db7-491c-82b5-699135718a75",
+    "data": [
+      {
+        "text": "I don\u0027t mind",
+        "alias": "qt_funeral_has_children",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522658321
+  },
+  {
+    "id": "6608a70e-2e9a-4797-bbd6-61953c53d8ae",
+    "data": [
+      {
+        "text": "yes",
+        "alias": "qt_funeral_has_children",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522658321
+  },
+  {
+    "id": "6c87e779-1e53-43e3-962d-02752d47199a",
+    "data": [
+      {
+        "text": "that\u0027s correct",
+        "alias": "qt_funeral_has_children",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522658321
+  },
+  {
+    "id": "cf7652f1-7a98-4092-907b-1575f740be8f",
+    "data": [
+      {
+        "text": "I agree",
+        "alias": "qt_funeral_has_children",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1522658321
+  },
+  {
+    "id": "efc64233-6444-4350-af50-db56bed98ffe",
+    "data": [
+      {
+        "text": "do it",
+        "alias": "qt_funeral_has_children",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1522658321
+  },
+  {
+    "id": "c22e926b-66c7-46fe-96a4-d599c0223aea",
+    "data": [
+      {
+        "text": "exactly",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522656389
+  },
+  {
+    "id": "eb4b1327-09cc-4a8f-a6f7-60f71b63e46a",
+    "data": [
+      {
+        "text": "sounds good",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522656389
+  }
+]

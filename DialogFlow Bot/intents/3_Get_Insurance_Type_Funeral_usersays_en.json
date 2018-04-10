@@ -1,0 +1,84 @@
+[
+  {
+    "id": "a80452f7-efee-4662-9bfd-2492f9b93043",
+    "data": [
+      {
+        "text": "Please quote me for ",
+        "userDefined": false
+      },
+      {
+        "text": "funeral",
+        "alias": "Insurance_Type",
+        "meta": "@Insurance_Type_Funeral",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522408569
+  },
+  {
+    "id": "e61705e9-bd77-4461-b501-9fa29f845b29",
+    "data": [
+      {
+        "text": "Quote me for ",
+        "userDefined": false
+      },
+      {
+        "text": "funeral insurance",
+        "alias": "Insurance_Type",
+        "meta": "@Insurance_Type_Funeral",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522408569
+  },
+  {
+    "id": "328458a2-330e-4093-931a-e2a515f12ab6",
+    "data": [
+      {
+        "text": "give me a quotation for ",
+        "userDefined": false
+      },
+      {
+        "text": "funeral cover",
+        "alias": "Insurance_Type",
+        "meta": "@Insurance_Type_Funeral",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522408569
+  },
+  {
+    "id": "f2e027b9-1594-43d6-bc73-37e7be138dbc",
+    "data": [
+      {
+        "text": "funeral cover",
+        "alias": "Insurance_Type",
+        "meta": "@Insurance_Type_Funeral",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522408569
+  },
+  {
+    "id": "5c2198f8-8958-479a-ab39-6fc04e527e72",
+    "data": [
+      {
+        "text": "funeral",
+        "alias": "Insurance_Type",
+        "meta": "@Insurance_Type_Funeral",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522408569
+  }
+]

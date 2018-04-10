@@ -1,0 +1,160 @@
+[
+  {
+    "id": "4d184d6c-110e-45ab-a666-87456c562cba",
+    "data": [
+      {
+        "text": "5 M",
+        "alias": "qt_life_basic",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522418375
+  },
+  {
+    "id": "9a3f37c7-d2e1-44d9-8911-ea3b5eade668",
+    "data": [
+      {
+        "text": "5M",
+        "alias": "qt_life_basic",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522418375
+  },
+  {
+    "id": "dc82a38f-2a2c-443f-897e-a479eec328e8",
+    "data": [
+      {
+        "text": "500 hundred thousand",
+        "alias": "qt_life_basic",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522418375
+  },
+  {
+    "id": "8b24da1c-4fd7-4ccf-a110-9e2c4a621f24",
+    "data": [
+      {
+        "text": "5 million",
+        "alias": "qt_life_basic",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522418375
+  },
+  {
+    "id": "6e97f4be-d346-4b41-bf6a-46e0bac8bfe6",
+    "data": [
+      {
+        "text": "15 K",
+        "alias": "qt_life_basic",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522418375
+  },
+  {
+    "id": "1a3f7397-797f-4224-9785-b528023f8efe",
+    "data": [
+      {
+        "text": "15K",
+        "alias": "qt_life_basic",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522418375
+  },
+  {
+    "id": "f6cec093-84a2-4531-993d-adcbf0a14e7a",
+    "data": [
+      {
+        "text": "25 000",
+        "alias": "qt_life_basic",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522418375
+  },
+  {
+    "id": "54b2b953-65bf-4998-8f4c-711eae65d744",
+    "data": [
+      {
+        "text": "25",
+        "alias": "qt_life_basic",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522418375
+  },
+  {
+    "id": "d8f04eb5-6049-428a-81f6-e1ab6bb47298",
+    "data": [
+      {
+        "text": "25000",
+        "alias": "qt_life_basic",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522418375
+  },
+  {
+    "id": "92176f02-cb3c-4b7d-8524-720e7a764f6a",
+    "data": [
+      {
+        "text": "Ten Thousand",
+        "alias": "qt_life_basic",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522418375
+  },
+  {
+    "id": "9f4f7d52-5b7d-471e-8e9b-5079b21cfeaf",
+    "data": [
+      {
+        "text": "Could you please cover me for ",
+        "userDefined": false
+      },
+      {
+        "text": "ten thousand",
+        "alias": "qt_life_basic",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522418375
+  }
+]

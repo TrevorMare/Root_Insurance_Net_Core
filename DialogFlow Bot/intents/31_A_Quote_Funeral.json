@@ -1,0 +1,56 @@
+{
+  "id": "7d5cfcc9-5fd7-4e64-a08d-d9d694b6bebc",
+  "name": "31_A_Quote_Funeral",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "root_quotation_funeral"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_funeral",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_funeral_spouse",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6b0a450a-2d84-4821-a74f-6c6a00ac4dd9",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "qt_funeral_amount",
+          "value": "$qt_funeral_amount",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Would you like to cover your spouse as well?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522653913,
+  "fallbackIntent": false,
+  "events": []
+}

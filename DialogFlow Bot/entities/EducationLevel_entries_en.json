@@ -1,0 +1,62 @@
+[
+  {
+    "value": "grade_12_no_matric",
+    "synonyms": [
+      "grade_12_no_matric",
+      "No Matric",
+      "I don\u0027t have matric",
+      "No School",
+      "Grade 1",
+      "grade 2",
+      "grade3",
+      "grade4",
+      "grade 5",
+      "Grade 6",
+      "grade 7",
+      "Grade 8",
+      "grade 9",
+      "grade 10",
+      "grade 11"
+    ]
+  },
+  {
+    "value": "grade_12_matric",
+    "synonyms": [
+      "grade_12_matric",
+      "Matric",
+      "Grade 12"
+    ]
+  },
+  {
+    "value": "diploma_or_btech",
+    "synonyms": [
+      "diploma_or_btech",
+      "Diploma",
+      "BTech"
+    ]
+  },
+  {
+    "value": "undergraduate_degree",
+    "synonyms": [
+      "undergraduate_degree",
+      "Undegraduate",
+      "Undegraduate Degree",
+      "undergraduate",
+      "undergraduate degree"
+    ]
+  },
+  {
+    "value": "professional_degree",
+    "synonyms": [
+      "professional_degree",
+      "Professional",
+      "Professional degree"
+    ]
+  },
+  {
+    "value": "don\u0027t have matric",
+    "synonyms": [
+      "don\u0027t have matric"
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "id": "05d61ca2-e0c0-4c90-9eb4-e81401be9e6a",
+  "parentId": "f7aded3b-3e38-44ea-a5d3-8b0cb01b2659",
+  "rootParentId": "f7aded3b-3e38-44ea-a5d3-8b0cb01b2659",
+  "name": "5_Get_Insurance_Type_Repeat",
+  "auto": true,
+  "contexts": [
+    "root_quotation",
+    "root_context",
+    "2_Get_Insurance_Type-followup",
+    "10_Get_Insurance_Type-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "10_Get_Insurance_Type.10_Get_Insurance_Type-repeat",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sorry, I did\u0027n get that. Please indicate what kind of insurance you would like a quotation on. We currently offer life insurance, funeral cover or gadget insurance"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522588589,
+  "fallbackIntent": false,
+  "events": []
+}

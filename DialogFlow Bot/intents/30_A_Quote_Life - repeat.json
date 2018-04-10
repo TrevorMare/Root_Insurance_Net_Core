@@ -1,0 +1,43 @@
+{
+  "id": "da6b3581-7b57-44db-ba31-33449e900ded",
+  "name": "30_A_Quote_Life - repeat",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "root_quotation_life"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "30_A_Quote_Life.30_A_Quote_Life-repeat",
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please indicate the amount you wish to insure for. This amount should be between 100 000 thousand and 5 million."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522585504,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "4a99ff51-529a-4d2a-a664-0a6a014d54a7",
+    "data": [
+      {
+        "text": "go back",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523090022
+  },
+  {
+    "id": "e5cf5143-9f8a-47c4-b4be-18ecb949d83e",
+    "data": [
+      {
+        "text": "return to the previous",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523090022
+  },
+  {
+    "id": "4c533b80-bbaa-4df5-85cd-2c89652a13d0",
+    "data": [
+      {
+        "text": "return to previous page",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523090022
+  },
+  {
+    "id": "811990f6-f400-419f-a3f8-dd6a84ea23a4",
+    "data": [
+      {
+        "text": "back",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523090022
+  },
+  {
+    "id": "404c9e08-646c-4cc6-8b9c-b398f927feec",
+    "data": [
+      {
+        "text": "previous",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523090022
+  },
+  {
+    "id": "d5151e40-531c-4d42-8428-b541bada206a",
+    "data": [
+      {
+        "text": "read out the previous results",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523090022
+  },
+  {
+    "id": "8087d093-6050-4cbd-8ca4-8583442f8787",
+    "data": [
+      {
+        "text": "go to the previous page",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523090022
+  },
+  {
+    "id": "bdaee788-cf96-4db7-8ef3-13890a07fcb5",
+    "data": [
+      {
+        "text": "previous page",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523090022
+  },
+  {
+    "id": "2eac0777-2e0b-42f6-8932-eac83c21c336",
+    "data": [
+      {
+        "text": "previous results",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523090022
+  },
+  {
+    "id": "7e1574ed-97d5-4b3a-b276-52aa4c326614",
+    "data": [
+      {
+        "text": "go back to previous results",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523090022
+  }
+]

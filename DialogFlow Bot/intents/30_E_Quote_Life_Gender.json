@@ -1,0 +1,63 @@
+{
+  "id": "c263ac86-ce99-46ec-adce-ff9789acaffd",
+  "name": "30_E_Quote_Life_Gender",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "root_quotation_life",
+    "root_quotation_life_gender"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "4_Quote_Life.4_Quote_Life-custom",
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life_gender",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "root_quotation_life_age",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "635f9c9c-3dfa-4bea-998c-fc257e493046",
+          "required": false,
+          "dataType": "@Gender",
+          "name": "qt_life_gender",
+          "value": "$qt_life_gender",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Almost there, please indicate your age"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522586432,
+  "fallbackIntent": false,
+  "events": []
+}

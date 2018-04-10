@@ -1,0 +1,42 @@
+{
+  "id": "9c0665ca-1110-41e8-8706-1526419a5455",
+  "name": "97_Save_State",
+  "auto": true,
+  "contexts": [
+    "context_root",
+    "save_state"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "context_root",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "save_state",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523091980,
+  "fallbackIntent": false,
+  "events": []
+}

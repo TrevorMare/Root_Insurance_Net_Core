@@ -1,0 +1,49 @@
+{
+  "id": "a790625d-1302-483a-a69c-07c22b84ff52",
+  "name": "30_B_Quote_Life_Basic_Salary-Previous",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "root_quotation_life_basic",
+    "root_quotation_life"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "root_quotation_life_basic",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "root_quotation_life",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please indicate the amount you wish to insure for. This amount should be between 100 000 rand and 5 million rand."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523082909,
+  "fallbackIntent": false,
+  "events": []
+}

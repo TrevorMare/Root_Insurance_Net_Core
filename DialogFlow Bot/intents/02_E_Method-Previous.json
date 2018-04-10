@@ -1,0 +1,43 @@
+{
+  "id": "c720354a-077e-4e65-85f2-62ab183341b1",
+  "name": "02_E_Method-Previous",
+  "auto": true,
+  "contexts": [
+    "root_method_context",
+    "root_context"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "root_method_context",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "How can I be of service? I can get you a quotation for insurance, log a claim, log a call or issue a complaint."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523087181,
+  "fallbackIntent": false,
+  "events": []
+}

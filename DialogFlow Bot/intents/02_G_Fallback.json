@@ -1,0 +1,42 @@
+{
+  "id": "7baf3e3e-0ac5-4a77-9014-26835571b31d",
+  "name": "02_G_Fallback",
+  "auto": false,
+  "contexts": [
+    "root_context",
+    "root_method_context"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_method_context",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I am sorry, I didn\u0027t get that. Could you please indicate what you would like to do. I can get you a quotation for insurance, log a claim, log a call or issue a complaint"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522584662,
+  "fallbackIntent": true,
+  "events": []
+}

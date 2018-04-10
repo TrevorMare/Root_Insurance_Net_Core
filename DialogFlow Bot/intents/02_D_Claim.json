@@ -1,0 +1,56 @@
+{
+  "id": "dd4aaecb-47b2-4ce9-830d-23200a222732",
+  "name": "02_D_Claim",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "root_method_context"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_method_context",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "root_claim_context",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "4e1309e7-59f4-446e-a0e9-fea772609649",
+          "required": false,
+          "dataType": "@Method_Type",
+          "name": "root_method_type",
+          "value": "$root_method_type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523089355,
+  "fallbackIntent": false,
+  "events": []
+}

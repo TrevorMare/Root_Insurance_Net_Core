@@ -1,0 +1,106 @@
+[
+  {
+    "id": "5d9c1238-bdc5-4cd8-b62d-33a7347e0ee9",
+    "data": [
+      {
+        "text": "I need to log a ",
+        "userDefined": false
+      },
+      {
+        "text": "call",
+        "alias": "root_method_type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089113
+  },
+  {
+    "id": "0fb93499-e09e-4ec7-9832-d4825341d1e6",
+    "data": [
+      {
+        "text": "I want to log a ",
+        "userDefined": false
+      },
+      {
+        "text": "call",
+        "alias": "root_method_type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089113
+  },
+  {
+    "id": "789ba566-e2e5-42cd-a938-ececb35d7ddc",
+    "data": [
+      {
+        "text": "Log a ",
+        "userDefined": false
+      },
+      {
+        "text": "call",
+        "alias": "root_method_type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089113
+  },
+  {
+    "id": "c7e4eb56-e926-41c6-a7bd-810054bbceba",
+    "data": [
+      {
+        "text": "Could you log a ",
+        "userDefined": false
+      },
+      {
+        "text": "call",
+        "alias": "root_method_type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089113
+  },
+  {
+    "id": "f5e1e57c-7e65-422a-9236-289140298301",
+    "data": [
+      {
+        "text": "I wish to log a ",
+        "userDefined": false
+      },
+      {
+        "text": "call",
+        "alias": "root_method_type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089113
+  },
+  {
+    "id": "bfe0919a-1f3d-4e32-b0a1-d3a7506f40c3",
+    "data": [
+      {
+        "text": "call",
+        "alias": "root_method_type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523086771
+  }
+]

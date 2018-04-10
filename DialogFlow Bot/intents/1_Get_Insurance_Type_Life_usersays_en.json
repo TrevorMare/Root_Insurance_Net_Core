@@ -1,0 +1,172 @@
+[
+  {
+    "id": "54ca6f7d-6d04-452c-a7ab-5b9a0d96571f",
+    "data": [
+      {
+        "text": "let\u0027s try ",
+        "userDefined": false
+      },
+      {
+        "text": "life insurance",
+        "alias": "Insurance_Type",
+        "meta": "@Insurance_Type_Life",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522584906
+  },
+  {
+    "id": "01415dbc-acfb-4001-908e-8bfb23563f73",
+    "data": [
+      {
+        "text": "Tell me more about the ",
+        "userDefined": false
+      },
+      {
+        "text": "life insurance",
+        "alias": "Insurance_Type",
+        "meta": "@Insurance_Type_Life",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522584906
+  },
+  {
+    "id": "e1921aeb-21ab-4ed3-9853-1bcaf3a0da75",
+    "data": [
+      {
+        "text": "I\u0027m looking for ",
+        "userDefined": false
+      },
+      {
+        "text": "life insurance",
+        "alias": "Insurance_Type",
+        "meta": "@Insurance_Type_Life",
+        "userDefined": false
+      },
+      {
+        "text": " qoutation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522584906
+  },
+  {
+    "id": "d91e7042-3468-4271-acae-cade1d41abf6",
+    "data": [
+      {
+        "text": "Please provide me with a ",
+        "userDefined": false
+      },
+      {
+        "text": "life insurance",
+        "alias": "Insurance_Type",
+        "meta": "@Insurance_Type_Life",
+        "userDefined": false
+      },
+      {
+        "text": " quote",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522584906
+  },
+  {
+    "id": "46081058-4a86-4eb7-9a3f-a115c94f4f80",
+    "data": [
+      {
+        "text": "Can I get cover for my ",
+        "userDefined": false
+      },
+      {
+        "text": "life",
+        "alias": "Insurance_Type",
+        "meta": "@Insurance_Type_Life",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522584906
+  },
+  {
+    "id": "790638b4-426e-49d6-95f0-17b35e1181de",
+    "data": [
+      {
+        "text": "life cover",
+        "alias": "Insurance_Type",
+        "meta": "@Insurance_Type_Life",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522584906
+  },
+  {
+    "id": "d8952cb5-81a1-4ef0-902c-bb5995966812",
+    "data": [
+      {
+        "text": "life",
+        "alias": "Insurance_Type",
+        "meta": "@Insurance_Type_Life",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522584906
+  },
+  {
+    "id": "edbeed45-cb72-4b3f-bfaa-7b16510c01f2",
+    "data": [
+      {
+        "text": "Can I get a quote for ",
+        "userDefined": false
+      },
+      {
+        "text": "life insurance",
+        "alias": "Insurance_Type",
+        "meta": "@Insurance_Type_Life",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522584906
+  },
+  {
+    "id": "c380cd1b-b06c-4d0f-99cb-3e75a49b43b9",
+    "data": [
+      {
+        "text": "Could I please get a quotation on ",
+        "userDefined": false
+      },
+      {
+        "text": "life cover",
+        "alias": "Insurance_Type",
+        "meta": "@Insurance_Type_Life",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522584906
+  }
+]

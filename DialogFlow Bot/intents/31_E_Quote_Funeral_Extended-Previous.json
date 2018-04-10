@@ -1,0 +1,54 @@
+{
+  "id": "298b7bad-da16-44dd-9866-994f8a461cd7",
+  "name": "31_E_Quote_Funeral_Extended-Previous",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "root_quotation_funeral",
+    "root_quotation_funeral_has_extended"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_funeral",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_funeral_has_children",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_funeral_has_extended",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please indicate if you have any children you want to include in the cover"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523084149,
+  "fallbackIntent": false,
+  "events": []
+}

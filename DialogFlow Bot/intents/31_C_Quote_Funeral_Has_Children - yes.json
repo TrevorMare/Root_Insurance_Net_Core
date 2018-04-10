@@ -1,0 +1,63 @@
+{
+  "id": "bf5b6754-f7b2-4a0e-9c88-91ee68ed94eb",
+  "name": "31_C_Quote_Funeral_Has_Children - yes",
+  "auto": true,
+  "contexts": [
+    "root_quotation_funeral_has_children",
+    "root_context",
+    "root_quotation_funeral"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_funeral",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_funeral_has_children",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "root_quotation_funeral_number_children",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "90a75404-5748-4b01-a5f2-ecbc55d37e9d",
+          "required": false,
+          "dataType": "@Boolean",
+          "name": "qt_funeral_has_children",
+          "value": "$qt_funeral_has_children",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please specify the number of children you want to include in the cover"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522659723,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": "0fe11206-cad4-473a-ac00-702ff66b5032",
+  "name": "31_E_Quote_Funeral_Extended_Repeat",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "root_quotation_funeral",
+    "root_quotation_funeral_has_extended"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_funeral",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_funeral_has_extended",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Could you please indicate if there are any extended family members you wish to add"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522660519,
+  "fallbackIntent": false,
+  "events": []
+}

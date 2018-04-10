@@ -1,0 +1,48 @@
+{
+  "id": "cd2c6705-0b5e-4067-8aac-9468fbdd408c",
+  "name": "30_D_Quote_Life_Smoker - Fallback",
+  "auto": false,
+  "contexts": [
+    "root_context",
+    "root_quotation_life",
+    "root_quotation_life_smoker"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life_smoker",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "One more time? Are you a smoker?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522586267,
+  "fallbackIntent": true,
+  "events": []
+}

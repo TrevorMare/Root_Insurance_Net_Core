@@ -1,0 +1,62 @@
+[
+  {
+    "id": "e8a716f6-d8a2-49f0-947b-2d84cd350442",
+    "data": [
+      {
+        "text": "Agree",
+        "alias": "qt_funeral_spouse",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522655553
+  },
+  {
+    "id": "22cc61b2-d9bf-439d-81e7-3542589741e9",
+    "data": [
+      {
+        "text": "Sure",
+        "alias": "qt_funeral_spouse",
+        "meta": "@Boolean",
+        "userDefined": false
+      },
+      {
+        "text": ", you can include my spouse",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522655553
+  },
+  {
+    "id": "f72ab948-00c7-4f5f-94a0-2541142f9341",
+    "data": [
+      {
+        "text": "No",
+        "alias": "qt_funeral_spouse",
+        "meta": "@Boolean",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522655553
+  },
+  {
+    "id": "49ae3e98-6d03-45f5-ba40-27b4ca6153aa",
+    "data": [
+      {
+        "text": "Yes",
+        "alias": "qt_funeral_spouse",
+        "meta": "@Boolean",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522655553
+  }
+]

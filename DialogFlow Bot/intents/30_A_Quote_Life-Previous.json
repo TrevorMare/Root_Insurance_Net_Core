@@ -1,0 +1,53 @@
+{
+  "id": "ce4f95b4-4cf5-4246-8fbc-b06c27b9cb75",
+  "name": "30_A_Quote_Life-Previous",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "root_quotation_life"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "2_Get_Insurance_Type-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "What type of insurance would you like cover for? We have life insurance, funeral cover or gadget insurance."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522844493,
+  "fallbackIntent": false,
+  "events": []
+}

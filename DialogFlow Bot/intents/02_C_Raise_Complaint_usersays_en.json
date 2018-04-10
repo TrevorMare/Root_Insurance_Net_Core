@@ -1,0 +1,120 @@
+[
+  {
+    "id": "fccd9ba0-00f9-497a-a8c6-a398ea0a9c4e",
+    "data": [
+      {
+        "text": "I want to raise a ",
+        "userDefined": false
+      },
+      {
+        "text": "complaint",
+        "alias": "Method_Type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089493
+  },
+  {
+    "id": "87924eb0-887d-4472-8001-38b33e0b91a6",
+    "data": [
+      {
+        "text": "Complaints",
+        "alias": "Method_Type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089420
+  },
+  {
+    "id": "f0624b4b-fd97-4eaf-9a9b-3bfafd399581",
+    "data": [
+      {
+        "text": "I need to ",
+        "userDefined": false
+      },
+      {
+        "text": "complain",
+        "alias": "Method_Type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089420
+  },
+  {
+    "id": "2f2be088-42a3-43a8-92a9-2973ea6ed057",
+    "data": [
+      {
+        "text": "I want to ",
+        "userDefined": false
+      },
+      {
+        "text": "complain",
+        "alias": "Method_Type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      },
+      {
+        "text": " about service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089420
+  },
+  {
+    "id": "217e4942-eda7-4715-aae0-fed007919b0c",
+    "data": [
+      {
+        "text": "I have a ",
+        "userDefined": false
+      },
+      {
+        "text": "complaint",
+        "alias": "Method_Type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089420
+  },
+  {
+    "id": "c2a70f11-2510-495d-b0c7-bf946734d84a",
+    "data": [
+      {
+        "text": "complaint",
+        "alias": "Method_Type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089420
+  },
+  {
+    "id": "0ad3fd9c-eff9-4d54-9cf5-6a0c9ebc0e74",
+    "data": [
+      {
+        "text": "complain",
+        "alias": "Method_Type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089420
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "id": "b94b8a53-d351-4e48-b897-7812240c5c17",
+  "name": "98_Quit_Intent",
+  "auto": true,
+  "contexts": [
+    "root_context"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Quit_Intent-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Are you sure you want to quit the application?",
+            "Are you sure you want to quit?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522587228,
+  "fallbackIntent": false,
+  "events": []
+}

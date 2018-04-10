@@ -1,0 +1,62 @@
+{
+  "id": "27d97ce0-2641-4be0-baf2-ec24d6e1af61",
+  "name": "31_D_Quote_Funeral_Number_Children",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "root_quotation_funeral",
+    "root_quotation_funeral_number_children"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_funeral",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_funeral_number_children",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "root_quotation_funeral_has_extended",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "efb70eec-c476-4723-9138-7399d6a6c7ca",
+          "required": false,
+          "dataType": "@sys.number-integer",
+          "name": "qt_funeral_number_children",
+          "value": "$qt_funeral_number_children",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please indicate if you have any extended family members you want to include"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522659666,
+  "fallbackIntent": false,
+  "events": []
+}

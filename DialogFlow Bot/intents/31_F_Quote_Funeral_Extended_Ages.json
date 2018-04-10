@@ -1,0 +1,57 @@
+{
+  "id": "970d1a23-feb7-4c00-822c-17778a89aa87",
+  "name": "31_F_Quote_Funeral_Extended_Ages",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "root_quotation_funeral",
+    "root_quotation_funeral_extended_ages"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_funeral",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_funeral_extended_ages",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "4a81493c-0826-4284-8691-3d37c91c7431",
+          "required": false,
+          "dataType": "@sys.number-sequence",
+          "name": "qt_funeral_extended_ages",
+          "value": "$qt_funeral_extended_ages",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please give us a second to generate the quotation."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523092407,
+  "fallbackIntent": false,
+  "events": []
+}

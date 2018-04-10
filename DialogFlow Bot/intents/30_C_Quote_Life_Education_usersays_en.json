@@ -1,0 +1,175 @@
+[
+  {
+    "id": "7d7d6fd9-7d6b-4288-bfe6-1bbdfd164d88",
+    "data": [
+      {
+        "text": "btech",
+        "alias": "qt_life_education",
+        "meta": "@EducationLevel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522415768
+  },
+  {
+    "id": "2049b7bd-1d94-4880-98aa-b11c95a82fa1",
+    "data": [
+      {
+        "text": "professional",
+        "alias": "qt_life_education",
+        "meta": "@EducationLevel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522415768
+  },
+  {
+    "id": "3876f13a-a7c9-438f-b78f-adda5b092f7b",
+    "data": [
+      {
+        "text": "I received my ",
+        "userDefined": false
+      },
+      {
+        "text": "professional degree",
+        "alias": "qt_life_education",
+        "meta": "@EducationLevel",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "in 2013",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522415768
+  },
+  {
+    "id": "c14897cb-12c5-4593-9a86-c0e1e8ac30d0",
+    "data": [
+      {
+        "text": "I completed my ",
+        "userDefined": false
+      },
+      {
+        "text": "undergraduate degree",
+        "alias": "qt_life_education",
+        "meta": "@EducationLevel",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522415768
+  },
+  {
+    "id": "4e3b75d6-a01a-4983-b181-13b6d1018291",
+    "data": [
+      {
+        "text": "I completed my ",
+        "userDefined": false
+      },
+      {
+        "text": "undergraduate",
+        "alias": "qt_life_education",
+        "meta": "@EducationLevel",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522415768
+  },
+  {
+    "id": "5149f7c9-a3dd-4178-931d-1e3b88c79ef9",
+    "data": [
+      {
+        "text": "I have a formal ",
+        "userDefined": false
+      },
+      {
+        "text": "diploma",
+        "alias": "qt_life_education",
+        "meta": "@EducationLevel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522415768
+  },
+  {
+    "id": "49c92951-7be1-4123-8265-45b6744eee12",
+    "data": [
+      {
+        "text": "Grade 8",
+        "alias": "qt_life_education",
+        "meta": "@EducationLevel",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522415768
+  },
+  {
+    "id": "0b4764f4-c21f-45c0-b4c3-ea18d999eddb",
+    "data": [
+      {
+        "text": "No Matric",
+        "alias": "qt_life_education",
+        "meta": "@EducationLevel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522415768
+  },
+  {
+    "id": "010bfa29-77f8-4413-ad19-c7c11121b982",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "don\u0027t have matric",
+        "alias": "qt_life_education",
+        "meta": "@EducationLevel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522415768
+  },
+  {
+    "id": "f98ac8b0-500d-46cd-82a1-dd68c884788e",
+    "data": [
+      {
+        "text": "My highest education level is ",
+        "userDefined": false
+      },
+      {
+        "text": "Matric",
+        "alias": "qt_life_education",
+        "meta": "@EducationLevel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522415768
+  }
+]

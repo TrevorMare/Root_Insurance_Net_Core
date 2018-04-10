@@ -1,0 +1,48 @@
+{
+  "id": "831be1d9-38b6-4142-b8d5-f2c67c9e3122",
+  "name": "30_C_Quote_Life_Education - Fallback",
+  "auto": false,
+  "contexts": [
+    "root_quotation_life_education",
+    "root_context",
+    "root_quotation_life"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "root_quotation_life_education",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I am sorry, I didn\u0027t quite get that. Could you please specify your highest education level. We have the following options. No matric, Matric, Diploma, BTech, Undergraduate degree or professional degree."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522586094,
+  "fallbackIntent": true,
+  "events": []
+}

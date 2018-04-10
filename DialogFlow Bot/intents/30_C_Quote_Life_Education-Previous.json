@@ -1,0 +1,54 @@
+{
+  "id": "4e440beb-0061-48f6-a778-e69a88c9b233",
+  "name": "30_C_Quote_Life_Education-Previous",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "root_quotation_life",
+    "root_quotation_life_education"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "root_quotation_life",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life_basic",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life_education",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please indicate what your basic monthly package is in Rands."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523083059,
+  "fallbackIntent": false,
+  "events": []
+}

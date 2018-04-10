@@ -1,0 +1,45 @@
+{
+  "id": "5c387d71-4863-41b5-b3be-0bf1cad8cf6e",
+  "parentId": "b94b8a53-d351-4e48-b897-7812240c5c17",
+  "rootParentId": "b94b8a53-d351-4e48-b897-7812240c5c17",
+  "name": "98_B_Quit_Intent_No",
+  "auto": true,
+  "contexts": [
+    "Quit_Intent-followup",
+    "root_context"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Quit_Intent.Quit_Intent-no",
+      "affectedContexts": [
+        {
+          "name": "Quit_Intent-followup",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "OK then, let us resume. If at any time you wish to speak to a human just say speak to a human"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522587275,
+  "fallbackIntent": false,
+  "events": []
+}

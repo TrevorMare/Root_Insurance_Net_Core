@@ -1,0 +1,38 @@
+[
+  {
+    "value": "true",
+    "synonyms": [
+      "true",
+      "yes",
+      "sure",
+      "why not",
+      "agree",
+      "I agree",
+      "confirm",
+      "okay",
+      "ok",
+      "of course",
+      "I don\u0027t mind",
+      "that\u0027s correct",
+      "do it",
+      "exactly",
+      "sounds good"
+    ]
+  },
+  {
+    "value": "false",
+    "synonyms": [
+      "false",
+      "no",
+      "not now",
+      "not interested",
+      "disagree",
+      "I disagree",
+      "I don\u0027t want that",
+      "don\u0027t do it",
+      "I don\u0027t think so",
+      "not really",
+      "definitely not"
+    ]
+  }
+]

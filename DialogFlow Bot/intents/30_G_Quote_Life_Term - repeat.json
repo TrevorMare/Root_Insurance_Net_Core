@@ -1,0 +1,49 @@
+{
+  "id": "350d69f5-0c6a-4273-8462-48a5d0aa6e55",
+  "name": "30_G_Quote_Life_Term - repeat",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "root_quotation_life",
+    "root_quotation_life_term"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "30_G_Quote_Life_Term.30_G_Quote_Life_Term-repeat",
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life_term",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Could you please indicate the life insurance term. We have the following terms available. 1 year, 2, years, 5 years, 10 years, 15 years, 20 years or lifetime."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522587047,
+  "fallbackIntent": false,
+  "events": []
+}

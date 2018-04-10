@@ -1,0 +1,56 @@
+{
+  "id": "cc97c506-622b-491c-8b84-ab386307ec06",
+  "name": "30_A_Quote_Life",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "root_quotation_life"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life_basic",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "32aa88bf-dbd1-457e-8b46-02bd7b124288",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "qt_life_amount",
+          "value": "$qt_life_amount",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thank you, please indicate what your basic monthly package is in rands."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522585585,
+  "fallbackIntent": false,
+  "events": []
+}

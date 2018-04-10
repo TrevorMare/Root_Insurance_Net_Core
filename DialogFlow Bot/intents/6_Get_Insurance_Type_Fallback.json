@@ -1,0 +1,46 @@
+{
+  "id": "e16f5a22-6657-49db-bf46-12ee6b5f85f8",
+  "parentId": "f7aded3b-3e38-44ea-a5d3-8b0cb01b2659",
+  "rootParentId": "f7aded3b-3e38-44ea-a5d3-8b0cb01b2659",
+  "name": "6_Get_Insurance_Type_Fallback",
+  "auto": false,
+  "contexts": [
+    "2_Get_Insurance_Type-followup",
+    "root_context",
+    "root_quotation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Unfortunately we do not cover that yet. Please check again in future, We only cover gadgets, insure life or funeral cover"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523090200,
+  "fallbackIntent": true,
+  "events": []
+}

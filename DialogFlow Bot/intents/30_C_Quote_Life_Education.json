@@ -1,0 +1,63 @@
+{
+  "id": "45abfc61-488c-42e6-a54e-1eff708ce65f",
+  "name": "30_C_Quote_Life_Education",
+  "auto": true,
+  "contexts": [
+    "root_quotation_life_education",
+    "root_context",
+    "root_quotation_life"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "4_Quote_Life.4_Quote_Life-custom",
+      "affectedContexts": [
+        {
+          "name": "root_quotation_life_education",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life_smoker",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b601906f-0af9-4f69-8776-78bf1adba222",
+          "required": false,
+          "dataType": "@EducationLevel",
+          "name": "qt_life_education",
+          "value": "$qt_life_education",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Half way there! Please indicate if you are a smoker?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522586053,
+  "fallbackIntent": false,
+  "events": []
+}

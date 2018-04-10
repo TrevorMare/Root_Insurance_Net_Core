@@ -1,0 +1,49 @@
+{
+  "id": "426fd4e1-2175-47c9-bc84-d16c221d3301",
+  "name": "31_B_Quote_Funeral_Spouse-Previous",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "root_quotation_funeral",
+    "root_quotation_funeral_spouse"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_funeral",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_funeral_spouse",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please indicate the amount you want to cover for. This amount must be between 10 000 rand and 50 000 rand."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523091104,
+  "fallbackIntent": false,
+  "events": []
+}

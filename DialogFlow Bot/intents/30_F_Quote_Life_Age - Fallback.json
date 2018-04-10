@@ -1,0 +1,48 @@
+{
+  "id": "059e9c67-b6b1-4371-ae53-7ab66c94a8aa",
+  "name": "30_F_Quote_Life_Age - Fallback",
+  "auto": false,
+  "contexts": [
+    "root_context",
+    "root_quotation_life",
+    "root_quotation_life_age"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life_age",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I missed that. Could you please specify your age?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522586766,
+  "fallbackIntent": true,
+  "events": []
+}

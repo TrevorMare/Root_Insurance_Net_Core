@@ -1,0 +1,52 @@
+{
+  "id": "00e9754b-6387-47c1-b913-c2a33dfe3a15",
+  "name": "30_D_Quote_Life_Smoker - repeat",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "root_quotation_life",
+    "root_quotation_life_smoker"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "30_D_Quote_Life_Smoker.30_D_Quote_Life_Smoker-repeat",
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life_smoker",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Do you smoke?",
+            "Do you smoke on a regular basis?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522586317,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,48 @@
+{
+  "id": "9399bd6d-02e4-41ac-bda8-689c2d6894cc",
+  "name": "30_B_QuoteLive_Basic_Salary - Fallback",
+  "auto": false,
+  "contexts": [
+    "root_context",
+    "root_quotation_life",
+    "root_quotation_life_basic"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life_basic",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Could you please repeat that, Can you please specify you basic monthly package"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522585783,
+  "fallbackIntent": true,
+  "events": []
+}

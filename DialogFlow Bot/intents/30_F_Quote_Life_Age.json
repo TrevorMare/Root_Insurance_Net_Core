@@ -1,0 +1,62 @@
+{
+  "id": "b2da2477-0ee3-4b33-8b7c-6c5150645e5a",
+  "name": "30_F_Quote_Life_Age",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "root_quotation_life_age",
+    "root_quotation_life"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "root_quotation_life_term",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life_age",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "root_quotation_life",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6fee0c6a-03ba-42f9-bd22-3f1b769863fd",
+          "required": false,
+          "dataType": "@sys.age",
+          "name": "qt_life_age",
+          "value": "$qt_life_age",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thank you. Last question, can you please indicate the number of years you want to take out this policy."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522586852,
+  "fallbackIntent": false,
+  "events": []
+}

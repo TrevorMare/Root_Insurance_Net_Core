@@ -1,0 +1,62 @@
+{
+  "id": "920a56d5-9f3c-43ee-9921-fd6b169804ae",
+  "name": "31_B_Quote_Funeral_Spouse",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "root_quotation_funeral",
+    "root_quotation_funeral_spouse"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_funeral",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_funeral_spouse",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "root_quotation_funeral_has_children",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8d75a18d-ae72-481b-a6df-81d185b3de7b",
+          "required": false,
+          "dataType": "@Boolean",
+          "name": "qt_funeral_spouse",
+          "value": "$qt_funeral_spouse",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Do you have any children you want to include in the cover?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522655661,
+  "fallbackIntent": false,
+  "events": []
+}

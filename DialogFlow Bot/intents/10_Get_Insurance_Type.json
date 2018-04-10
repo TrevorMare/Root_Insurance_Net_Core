@@ -1,0 +1,48 @@
+{
+  "id": "f7aded3b-3e38-44ea-a5d3-8b0cb01b2659",
+  "name": "10_Get_Insurance_Type",
+  "auto": true,
+  "contexts": [
+    "2_Get_Insurance_Type-followup",
+    "root_context",
+    "root_quotation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "2_Get_Insurance_Type-followup",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523090321,
+  "fallbackIntent": false,
+  "events": []
+}

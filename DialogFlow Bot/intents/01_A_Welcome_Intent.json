@@ -1,0 +1,59 @@
+{
+  "id": "0adacab8-fde8-4adc-af5a-77816d50135b",
+  "name": "01_A_Welcome_Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_method_context",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e15e748a-d932-41cc-97b4-b58f84f5fa87",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "root_email",
+          "value": "$root_email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Hi there. This is root Insurance. Before we continue can you please specify your email address."
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Hi there, this is Root Insurance and I am a bot.I will try to do my best to get you the required service. If at any time you would wish to speak to a human, just say I want to speak to a human. Now, how can I be of service? I can get you a quotation for insurance, log a claim, log a call or issue a complaint."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522582818,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

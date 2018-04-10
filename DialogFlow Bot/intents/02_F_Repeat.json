@@ -1,0 +1,43 @@
+{
+  "id": "6c92b401-69fa-4872-89ba-76aed971638a",
+  "name": "02_F_Repeat",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "root_method_context"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_method_context",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Can get you a quotation for insurance, log a claim, log a call or issue a complaint."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522584542,
+  "fallbackIntent": false,
+  "events": []
+}

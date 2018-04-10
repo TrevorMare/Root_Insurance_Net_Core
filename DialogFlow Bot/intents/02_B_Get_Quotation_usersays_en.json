@@ -1,0 +1,102 @@
+[
+  {
+    "id": "483ef996-4f4a-4c54-a68b-8782412fad14",
+    "data": [
+      {
+        "text": "Can I get a ",
+        "userDefined": false
+      },
+      {
+        "text": "quotation",
+        "alias": "root_method_type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089247
+  },
+  {
+    "id": "3bba0736-806d-4b48-b3a1-61c4d32afad8",
+    "data": [
+      {
+        "text": "I want a ",
+        "userDefined": false
+      },
+      {
+        "text": "quotation",
+        "alias": "root_method_type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089247
+  },
+  {
+    "id": "1c35679e-7fdf-4237-98e0-8edf43a12d40",
+    "data": [
+      {
+        "text": "Can I get a ",
+        "userDefined": false
+      },
+      {
+        "text": "quote",
+        "alias": "root_method_type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089247
+  },
+  {
+    "id": "e88303a9-aa98-46ab-88c1-223c5833e1df",
+    "data": [
+      {
+        "text": "I wish to get a ",
+        "userDefined": false
+      },
+      {
+        "text": "quotation",
+        "alias": "root_method_type",
+        "meta": "@Method_Type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089247
+  },
+  {
+    "id": "18bceefc-7d56-4724-9a13-ec2bd0d39e63",
+    "data": [
+      {
+        "text": "quotation",
+        "alias": "root_method_type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523087031
+  },
+  {
+    "id": "c4255ed9-48f5-487a-8c91-3ea7684d1755",
+    "data": [
+      {
+        "text": "quote",
+        "alias": "root_method_type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523087031
+  }
+]

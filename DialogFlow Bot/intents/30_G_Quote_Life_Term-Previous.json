@@ -1,0 +1,54 @@
+{
+  "id": "8918a890-e198-495f-a267-05706f9faf1f",
+  "name": "30_G_Quote_Life_Term-Previous",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "root_quotation_life",
+    "root_quotation_life_term"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life_term",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "root_quotation_life_age",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Could you please give us your age."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523083572,
+  "fallbackIntent": false,
+  "events": []
+}

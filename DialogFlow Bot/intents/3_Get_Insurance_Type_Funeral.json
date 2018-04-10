@@ -1,0 +1,65 @@
+{
+  "id": "b14a037e-903e-4dad-bead-b46324723fe0",
+  "parentId": "f7aded3b-3e38-44ea-a5d3-8b0cb01b2659",
+  "rootParentId": "f7aded3b-3e38-44ea-a5d3-8b0cb01b2659",
+  "name": "3_Get_Insurance_Type_Funeral",
+  "auto": true,
+  "contexts": [
+    "2_Get_Insurance_Type-followup",
+    "root_context",
+    "root_quotation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "2_Get_Insurance_Type.2_Get_Insurance_Type-custom",
+      "affectedContexts": [
+        {
+          "name": "2_Get_Insurance_Type-followup",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "root_quotation_funeral",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "fa6d3341-34a1-404a-8751-ae34a810ba52",
+          "required": false,
+          "dataType": "@Insurance_Type_Funeral",
+          "name": "Insurance_Type",
+          "value": "$Insurance_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Great, lets get you a quotation on that $Insurance_Type . Please indicate the amount you want to cover for. This amount must be between 10 000 rand and 50 000 rand."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523091034,
+  "fallbackIntent": false,
+  "events": []
+}

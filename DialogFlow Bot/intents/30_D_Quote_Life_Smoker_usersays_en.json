@@ -1,0 +1,94 @@
+[
+  {
+    "id": "09b50e21-6ece-49fa-aa10-868293a59cd2",
+    "data": [
+      {
+        "text": "No",
+        "alias": "qt_life_smoker",
+        "meta": "@Boolean",
+        "userDefined": false
+      },
+      {
+        "text": ", I do not smoke",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522421436
+  },
+  {
+    "id": "d6ceed45-8067-4152-8305-9621a0ca61ee",
+    "data": [
+      {
+        "text": "Yes",
+        "alias": "qt_life_smoker",
+        "meta": "@Boolean",
+        "userDefined": false
+      },
+      {
+        "text": ", I am a smoker",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522421436
+  },
+  {
+    "id": "4283a6ec-f7d1-42f0-b453-e0f8b690bbf7",
+    "data": [
+      {
+        "text": "Sure",
+        "alias": "qt_life_smoker",
+        "meta": "@Boolean",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522421436
+  },
+  {
+    "id": "1e3fa102-6567-4119-9138-482c066dd646",
+    "data": [
+      {
+        "text": "I Agree",
+        "alias": "qt_life_smoker",
+        "meta": "@Boolean",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522421436
+  },
+  {
+    "id": "24736207-67aa-4fb4-910d-c50d4b41d831",
+    "data": [
+      {
+        "text": "No",
+        "alias": "qt_life_smoker",
+        "meta": "@Boolean",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522421436
+  },
+  {
+    "id": "a27b603f-ba18-4d70-8b8a-f5d8a64373b9",
+    "data": [
+      {
+        "text": "Disagree",
+        "alias": "qt_life_smoker",
+        "meta": "@Boolean",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522421436
+  }
+]

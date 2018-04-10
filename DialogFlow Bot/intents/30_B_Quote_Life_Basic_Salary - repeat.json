@@ -1,0 +1,49 @@
+{
+  "id": "90a9f9d1-3791-404d-9c2c-1013960c6a84",
+  "name": "30_B_Quote_Life_Basic_Salary - repeat",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "root_quotation_life",
+    "root_quotation_life_basic"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "30_B_Quote_Life_Basic_Salary.30_B_Quote_Life_Basic_Salary-repeat",
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life_basic",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Could you please provide us with your monthly basic pay"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522585725,
+  "fallbackIntent": false,
+  "events": []
+}

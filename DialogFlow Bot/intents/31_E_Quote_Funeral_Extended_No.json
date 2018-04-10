@@ -1,0 +1,57 @@
+{
+  "id": "b5cb61d8-931d-41b2-bddc-6c5dfb28327b",
+  "name": "31_E_Quote_Funeral_Extended_No",
+  "auto": true,
+  "contexts": [
+    "root_quotation_funeral_has_extended",
+    "root_context",
+    "root_quotation_funeral"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "root_quotation_funeral_has_extended",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_funeral",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7995742b-09ad-4f5b-a70f-aa45417df1dc",
+          "dataType": "@Boolean",
+          "name": "qt_funeral_has_extended",
+          "value": "$qt_funeral_has_extended",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "OK, please wait a second while we fetch you the best quote we can."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522660141,
+  "fallbackIntent": false,
+  "events": []
+}

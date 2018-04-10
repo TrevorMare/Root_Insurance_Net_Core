@@ -1,0 +1,48 @@
+{
+  "id": "15bac12f-532a-40e4-86f5-5c7f6cbaf04f",
+  "name": "31_D_Quote_Funeral_Number_Children_Fallback",
+  "auto": false,
+  "contexts": [
+    "root_context",
+    "root_quotation_funeral",
+    "root_quotation_life_age"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_funeral",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_funeral_number_children",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I missed that. Could you please specify your age?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522659389,
+  "fallbackIntent": true,
+  "events": []
+}

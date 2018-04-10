@@ -1,0 +1,65 @@
+{
+  "id": "9a460292-dc68-4107-afbc-c22d94edd504",
+  "parentId": "f7aded3b-3e38-44ea-a5d3-8b0cb01b2659",
+  "rootParentId": "f7aded3b-3e38-44ea-a5d3-8b0cb01b2659",
+  "name": "2_Get_Insurance_Type_Gadget",
+  "auto": true,
+  "contexts": [
+    "2_Get_Insurance_Type-followup",
+    "root_context",
+    "root_quotation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "2_A_Get_Insurance_Type.Get_Insurance_Type-custom",
+      "affectedContexts": [
+        {
+          "name": "2_Get_Insurance_Type-followup",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "root_quotation_gadget",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c8ccd883-be11-444a-8b52-db308ca26575",
+          "required": false,
+          "dataType": "@Insurance_Type_Gadget",
+          "name": "Insurance_Type",
+          "value": "$Insurance_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Great, lets get you a quotation for $Insurance_Type . Please indicate the model and make of the item you wish to ensure?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522662421,
+  "fallbackIntent": false,
+  "events": []
+}

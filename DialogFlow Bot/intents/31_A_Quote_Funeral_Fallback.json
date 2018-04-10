@@ -1,0 +1,45 @@
+{
+  "id": "86b740fe-94dd-4d8c-a9ec-65768c6027cc",
+  "name": "31_A_Quote_Funeral_Fallback",
+  "auto": false,
+  "contexts": [
+    "root_context",
+    "root_quotation_funeral"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_funeral",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I\u0027m sorry. I didn\u0027t quite get that. Could you please specify the cover amount. This amount must be between 10 000 rand and 50 0000 rand.",
+            "Please indicate the amount you want to cover for. This amount must be between 10 000 rand and 50 0000 rand."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522589376,
+  "fallbackIntent": true,
+  "events": []
+}

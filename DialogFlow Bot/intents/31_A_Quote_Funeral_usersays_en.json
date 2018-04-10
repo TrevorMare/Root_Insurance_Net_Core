@@ -1,0 +1,104 @@
+[
+  {
+    "id": "c779a14f-9edb-4c50-b65c-6fcd4e17ffa2",
+    "data": [
+      {
+        "text": "10",
+        "alias": "qt_funeral_amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " rand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522419831
+  },
+  {
+    "id": "a3d16c08-e998-4c75-b8a7-c165604fea7e",
+    "data": [
+      {
+        "text": "50 Thousand",
+        "alias": "qt_funeral_amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "500",
+        "alias": "qt_funeral_amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " rand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522419831
+  },
+  {
+    "id": "08dd669d-9ee1-40d4-a399-89521dbc74e0",
+    "data": [
+      {
+        "text": "50 Thousand",
+        "alias": "qt_funeral_amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522419831
+  },
+  {
+    "id": "0f74a6b5-00e7-4372-b0a5-df9d32a85168",
+    "data": [
+      {
+        "text": "25 K",
+        "alias": "qt_funeral_amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522419831
+  },
+  {
+    "id": "4401b1cb-4890-47dd-9f00-e81bdf381423",
+    "data": [
+      {
+        "text": "25K",
+        "alias": "qt_funeral_amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522419831
+  },
+  {
+    "id": "23b8b083-bcc8-4507-a98c-34fc3247bba4",
+    "data": [
+      {
+        "text": "25000",
+        "alias": "qt_funeral_amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522419831
+  }
+]

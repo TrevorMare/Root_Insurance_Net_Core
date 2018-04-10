@@ -1,0 +1,114 @@
+[
+  {
+    "id": "a6d3a8a3-5039-47b2-83d3-d63f4738ec9b",
+    "data": [
+      {
+        "text": "I don\u0027t want that",
+        "alias": "qt_funeral_has_extended",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522660141
+  },
+  {
+    "id": "c72e55da-0d93-435b-b2ce-0ed3c0002ae1",
+    "data": [
+      {
+        "text": "don\u0027t do it",
+        "alias": "qt_funeral_has_extended",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522660141
+  },
+  {
+    "id": "42297fa8-fae5-46cc-8ef7-df92a844af08",
+    "data": [
+      {
+        "text": "I disagree",
+        "alias": "qt_funeral_has_extended",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 1522660141
+  },
+  {
+    "id": "c534c1ad-8ad3-40fb-aba8-861931de0090",
+    "data": [
+      {
+        "text": "I don\u0027t think so",
+        "alias": "qt_funeral_has_extended",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522660141
+  },
+  {
+    "id": "04e0276a-faf1-4e60-9241-09b4ae2e09ef",
+    "data": [
+      {
+        "text": "not really",
+        "alias": "qt_funeral_has_extended",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522660141
+  },
+  {
+    "id": "cd11bf5e-0df1-4fe5-9e4f-3d920a3acbfa",
+    "data": [
+      {
+        "text": "not interested",
+        "alias": "qt_funeral_has_extended",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522660141
+  },
+  {
+    "id": "963fa9d8-26fe-4ffd-9327-48b9e70e631f",
+    "data": [
+      {
+        "text": "definitely not",
+        "alias": "qt_funeral_has_extended",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1522660141
+  },
+  {
+    "id": "c9578c75-5be7-42ee-b827-b8f98bdd934c",
+    "data": [
+      {
+        "text": "no",
+        "alias": "qt_funeral_has_extended",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1522660141
+  }
+]

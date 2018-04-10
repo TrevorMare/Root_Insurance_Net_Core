@@ -1,0 +1,66 @@
+{
+  "id": "40080939-72cd-40cf-b95b-f5253e2fca79",
+  "parentId": "f7aded3b-3e38-44ea-a5d3-8b0cb01b2659",
+  "rootParentId": "f7aded3b-3e38-44ea-a5d3-8b0cb01b2659",
+  "name": "1_Get_Insurance_Type_Life",
+  "auto": true,
+  "contexts": [
+    "2_Get_Insurance_Type-followup",
+    "root_context",
+    "root_quotation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "2_Get_Insurance_Type.2_Get_Insurance_Type-custom",
+      "affectedContexts": [
+        {
+          "name": "2_Get_Insurance_Type-followup",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "root_quotation_life",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "53bcf40c-32cb-4afd-93e8-673c1d7cd289",
+          "required": true,
+          "dataType": "@Insurance_Type_Life",
+          "name": "Insurance_Type",
+          "value": "$Insurance_Type",
+          "prompts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Let\u0027s see if we can get you a quote on $Insurance_Type . Please indicate the amount you wish to insure for. This amount should be between 100 000 rand and 5 million rand."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522584906,
+  "fallbackIntent": false,
+  "events": []
+}

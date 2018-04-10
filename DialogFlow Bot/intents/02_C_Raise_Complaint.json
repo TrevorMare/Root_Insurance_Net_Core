@@ -1,0 +1,56 @@
+{
+  "id": "1619be7d-2bb6-471e-80a2-dfef6d1e0c17",
+  "name": "02_C_Raise_Complaint",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "root_method_context"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_method_context",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "root_log_complaint_context",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f8b77821-21c7-4935-aee4-d512a951efe6",
+          "required": false,
+          "dataType": "@Method_Type",
+          "name": "Method_Type",
+          "value": "$Method_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523089493,
+  "fallbackIntent": false,
+  "events": []
+}

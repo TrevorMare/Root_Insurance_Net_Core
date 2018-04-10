@@ -1,0 +1,62 @@
+{
+  "id": "c2b63c55-0a9c-4e3b-b08d-0aca1fd7f83e",
+  "name": "30_B_Quote_Life_Basic_Salary",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "root_quotation_life",
+    "root_quotation_life_basic"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life_basic",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "root_quotation_life_education",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "827da316-2dea-4b86-8568-a761ef486713",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "qt_life_basic",
+          "value": "$qt_life_basic",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "OK, Could you please indicate your highest education level. We have the following options. No matric, Matric, Diploma, BTech, Undergraduate degree or professional degree."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522585828,
+  "fallbackIntent": false,
+  "events": []
+}

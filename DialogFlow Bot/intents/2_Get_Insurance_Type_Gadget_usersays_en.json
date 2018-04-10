@@ -1,0 +1,102 @@
+[
+  {
+    "id": "ff7b40d1-1197-45fc-a299-672965c9853f",
+    "data": [
+      {
+        "text": "gadget cover",
+        "alias": "Insurance_Type",
+        "meta": "@Insurance_Type_Gadget",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522408083
+  },
+  {
+    "id": "5de21e03-e654-4ec2-a671-ff61e01682a0",
+    "data": [
+      {
+        "text": "gadget",
+        "alias": "Insurance_Type",
+        "meta": "@Insurance_Type_Gadget",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522408083
+  },
+  {
+    "id": "ce79030b-416c-4718-b8c1-37c3cfe4a638",
+    "data": [
+      {
+        "text": "give me a quotation for ",
+        "userDefined": false
+      },
+      {
+        "text": "phone cover",
+        "alias": "Insurance_Type",
+        "meta": "@Insurance_Type_Gadget",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522408083
+  },
+  {
+    "id": "47ae3291-c489-4c9d-b279-47b58b575896",
+    "data": [
+      {
+        "text": "Please quote me for a ",
+        "userDefined": false
+      },
+      {
+        "text": "gadget",
+        "alias": "Insurance_Type",
+        "meta": "@Insurance_Type_Gadget",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522408083
+  },
+  {
+    "id": "4bad8e87-89f4-4deb-839b-e06c24ae424f",
+    "data": [
+      {
+        "text": "Could you please provide a quotation for my ",
+        "userDefined": false
+      },
+      {
+        "text": "tablet",
+        "alias": "Insurance_Type",
+        "meta": "@Insurance_Type_Gadget",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522408083
+  },
+  {
+    "id": "d712be07-2835-4622-8bc4-fcbcf56f42fe",
+    "data": [
+      {
+        "text": "I would like some cover on my ",
+        "userDefined": false
+      },
+      {
+        "text": "phone",
+        "alias": "Insurance_Type",
+        "meta": "@Insurance_Type_Gadget",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522408083
+  }
+]

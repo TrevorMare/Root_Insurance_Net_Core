@@ -1,0 +1,61 @@
+{
+  "id": "fec00d8b-3482-48b7-8c14-5331cba2203e",
+  "name": "02_A_Log_Call",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "root_method_context"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_method_context",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "root_log_call_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "02_A_Log_Call-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "70de6b33-ea5c-47d8-83f4-90a19ba9700a",
+          "required": false,
+          "dataType": "@Method_Type",
+          "name": "root_method_type",
+          "value": "$root_method_type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523089113,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "4b2d29ed-dc44-45ae-ae68-dd910043dca3",
+  "parentId": "b94b8a53-d351-4e48-b897-7812240c5c17",
+  "rootParentId": "b94b8a53-d351-4e48-b897-7812240c5c17",
+  "name": "98_A_Quit_Intent_Yes",
+  "auto": true,
+  "contexts": [
+    "Quit_Intent-followup",
+    "root_context"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Quit_Intent.Quit_Intent-yes",
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thank you and will hopefully hear from you again soon."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522587247,
+  "fallbackIntent": false,
+  "events": []
+}

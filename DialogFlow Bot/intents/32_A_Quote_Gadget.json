@@ -1,0 +1,50 @@
+{
+  "id": "af062c0d-2f67-41fb-a5ce-325b3b48a1de",
+  "name": "32_A_Quote_Gadget",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "root_quotation_gadget"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_gadget",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1a17c5ad-28d7-4748-9708-3fc60517ed9e",
+          "dataType": "@sys.any",
+          "name": "qt_gadget_name",
+          "value": "$qt_gadget_name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Ok, please just wait a couple of seconds while we fetch some information on the device"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522663331,
+  "fallbackIntent": false,
+  "events": []
+}

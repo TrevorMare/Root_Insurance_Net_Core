@@ -1,0 +1,59 @@
+{
+  "id": "e060fc45-80da-48df-93c1-4543fe6ea91a",
+  "name": "10_Get_Insurance_Type-Previous",
+  "auto": true,
+  "contexts": [
+    "root_quotation",
+    "root_context",
+    "2_Get_Insurance_Type-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "2_Get_Insurance_Type-followup",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "10_Get_Insurance_Type-followup",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "root_method_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "How can I be of service? I can get you a quotation for insurance, log a claim, log a call or issue a complaint."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523090388,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,62 @@
+{
+  "id": "e6525cb7-8398-4595-bb5f-f05b405795f5",
+  "name": "30_D_Quote_Life_Smoker",
+  "auto": true,
+  "contexts": [
+    "root_quotation_life_smoker",
+    "root_context",
+    "root_quotation_life"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "root_quotation_life_smoker",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "root_quotation_life_gender",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1a0284a4-8000-430b-8ff1-e838a221a350",
+          "required": false,
+          "dataType": "@Boolean",
+          "name": "qt_life_smoker",
+          "value": "$qt_life_smoker",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thank you. What gender are you?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522586220,
+  "fallbackIntent": false,
+  "events": []
+}

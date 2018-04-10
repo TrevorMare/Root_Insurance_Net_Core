@@ -1,0 +1,36 @@
+{
+  "id": "3f7f6dbc-41a4-4df8-973e-786de39bafab",
+  "name": "99_Speak_To_A_Human",
+  "auto": true,
+  "contexts": [
+    "root_context"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "OK, let me transfer you to the first available consultant. If possible can you please also help us by telling us the difficulties you had with the chat bot."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522587306,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,138 @@
+[
+  {
+    "id": "58c3d5b9-948d-4092-aaa5-37a05773680d",
+    "data": [
+      {
+        "text": "It is an ",
+        "userDefined": false
+      },
+      {
+        "text": "Acer Aspire",
+        "alias": "qt_gadget_name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522663331
+  },
+  {
+    "id": "1314e92d-d819-4e96-a90a-e936674f6387",
+    "data": [
+      {
+        "text": "Quote",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " me on my ",
+        "userDefined": false
+      },
+      {
+        "text": "red Samsung S6",
+        "alias": "qt_gadget_name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522663331
+  },
+  {
+    "id": "de1d03f1-872c-486e-9fea-20ff0588faf3",
+    "data": [
+      {
+        "text": "Can you give me a ",
+        "userDefined": false
+      },
+      {
+        "text": "quote",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " on my ",
+        "userDefined": false
+      },
+      {
+        "text": "LG G6",
+        "alias": "qt_gadget_name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522663331
+  },
+  {
+    "id": "bd026df0-ada7-4636-b83f-731163cb55a5",
+    "data": [
+      {
+        "text": "I want to ensure my ",
+        "userDefined": false
+      },
+      {
+        "text": "black iPhone 6s 32GB",
+        "alias": "qt_gadget_name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522663331
+  },
+  {
+    "id": "cee7c355-f5c1-427b-bc5f-972cc0935cd6",
+    "data": [
+      {
+        "text": "iPhone 6S",
+        "alias": "qt_gadget_name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522663331
+  },
+  {
+    "id": "3be8f65c-e2db-46bd-9120-1e386e758876",
+    "data": [
+      {
+        "text": "It is a ",
+        "userDefined": false
+      },
+      {
+        "text": "Samsung S6",
+        "alias": "qt_gadget_name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522663331
+  },
+  {
+    "id": "187be93f-63c8-40db-90d3-3bae0bc4374f",
+    "data": [
+      {
+        "text": "I want to insure my ",
+        "userDefined": false
+      },
+      {
+        "text": "LG G6",
+        "alias": "qt_gadget_name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522663331
+  }
+]

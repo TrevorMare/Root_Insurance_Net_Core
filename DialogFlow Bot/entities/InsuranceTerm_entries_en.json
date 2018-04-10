@@ -1,0 +1,72 @@
+[
+  {
+    "value": "one_year",
+    "synonyms": [
+      "1_year",
+      "1 year",
+      "one year",
+      "1",
+      "one"
+    ]
+  },
+  {
+    "value": "two_years",
+    "synonyms": [
+      "two_years",
+      "Two years",
+      "2 years",
+      "2",
+      "two"
+    ]
+  },
+  {
+    "value": "five_years",
+    "synonyms": [
+      "five_years",
+      "5 years",
+      "five years",
+      "5",
+      "five"
+    ]
+  },
+  {
+    "value": "ten_years",
+    "synonyms": [
+      "ten_years",
+      "10 years",
+      "ten years",
+      "10",
+      "ten"
+    ]
+  },
+  {
+    "value": "fifteen_years",
+    "synonyms": [
+      "fifteen_years",
+      "15 years",
+      "fifteen years",
+      "15",
+      "fifteen"
+    ]
+  },
+  {
+    "value": "twenty_years",
+    "synonyms": [
+      "twenty_years",
+      "twenty years",
+      "twenty",
+      "20"
+    ]
+  },
+  {
+    "value": "whole_life",
+    "synonyms": [
+      "whole_life",
+      "whole life",
+      "life time",
+      "for life",
+      "forever",
+      "lifetime"
+    ]
+  }
+]

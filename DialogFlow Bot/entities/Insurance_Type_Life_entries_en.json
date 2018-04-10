@@ -1,0 +1,17 @@
+[
+  {
+    "value": "life insurance",
+    "synonyms": [
+      "life",
+      "life insurance",
+      "life cover",
+      "death"
+    ]
+  },
+  {
+    "value": "funeral",
+    "synonyms": [
+      "funeral"
+    ]
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "d39b21d4-4055-40b8-b480-1f2e6c7cb182",
+    "data": [
+      {
+        "text": "I don\u0027t want that",
+        "alias": "qt_funeral_has_children",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522658210
+  },
+  {
+    "id": "322fbfc8-ecf3-4300-adf3-d4ef6c35bb1f",
+    "data": [
+      {
+        "text": "don\u0027t do it",
+        "alias": "qt_funeral_has_children",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522658210
+  },
+  {
+    "id": "86bc495a-93ab-4ab7-a9ca-58847470735a",
+    "data": [
+      {
+        "text": "I disagree",
+        "alias": "qt_funeral_has_children",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 1522658210
+  },
+  {
+    "id": "61961161-f8cd-4737-8085-abb020e915a9",
+    "data": [
+      {
+        "text": "I don\u0027t think so",
+        "alias": "qt_funeral_has_children",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522658210
+  },
+  {
+    "id": "1182ec64-943a-4eaf-86b3-9b278a3693aa",
+    "data": [
+      {
+        "text": "not really",
+        "alias": "qt_funeral_has_children",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522658210
+  },
+  {
+    "id": "590916a5-1461-4afa-a940-390f369ddbd3",
+    "data": [
+      {
+        "text": "not interested",
+        "alias": "qt_funeral_has_children",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522658210
+  },
+  {
+    "id": "fae1dfd4-eced-4bcb-89ee-2913aa65a297",
+    "data": [
+      {
+        "text": "definitely not",
+        "alias": "qt_funeral_has_children",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1522658210
+  },
+  {
+    "id": "1fa0abd6-3a2c-4c94-9819-952a2fe09518",
+    "data": [
+      {
+        "text": "no",
+        "alias": "qt_funeral_has_children",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1522658210
+  }
+]

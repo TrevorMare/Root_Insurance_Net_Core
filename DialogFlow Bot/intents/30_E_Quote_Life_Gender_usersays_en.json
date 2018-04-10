@@ -1,0 +1,34 @@
+[
+  {
+    "id": "440c1aa2-95f1-4f24-ae8d-4440e591a238",
+    "data": [
+      {
+        "text": "Female",
+        "alias": "qt_life_gender",
+        "meta": "@Gender",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522586432
+  },
+  {
+    "id": "20de9e46-564e-4d54-9895-167a1ad05bcb",
+    "data": [
+      {
+        "text": "I am a ",
+        "userDefined": false
+      },
+      {
+        "text": "male",
+        "alias": "qt_life_gender",
+        "meta": "@Gender",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522586432
+  }
+]

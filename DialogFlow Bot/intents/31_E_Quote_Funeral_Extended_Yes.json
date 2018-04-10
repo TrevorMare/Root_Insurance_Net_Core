@@ -1,0 +1,63 @@
+{
+  "id": "d1d69615-a895-47d9-8509-f3232e4bf0c3",
+  "name": "31_E_Quote_Funeral_Extended_Yes",
+  "auto": true,
+  "contexts": [
+    "root_quotation_funeral_has_extended",
+    "root_context",
+    "root_quotation_funeral"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "root_quotation_funeral_has_extended",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_funeral",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_funeral_extended_ages",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "39436582-b675-48b4-96b7-ad835f3efb45",
+          "required": false,
+          "dataType": "@Boolean",
+          "name": "qt_funeral_has_extended",
+          "value": "$qt_funeral_has_extended",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please indicate the ages of the extended family members."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522661312,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,160 @@
+[
+  {
+    "id": "6ac43c4f-a150-4cca-b81a-7882457de81d",
+    "data": [
+      {
+        "text": "register a ",
+        "userDefined": false
+      },
+      {
+        "text": "claim",
+        "alias": "root_method_type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089355
+  },
+  {
+    "id": "5b97c32c-5dcd-4c04-befb-55fcb3bb3d65",
+    "data": [
+      {
+        "text": "put in a ",
+        "userDefined": false
+      },
+      {
+        "text": "claim",
+        "alias": "root_method_type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089355
+  },
+  {
+    "id": "daf15993-a7e6-45b8-b11a-18debef563f0",
+    "data": [
+      {
+        "text": "claim",
+        "alias": "root_method_type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      },
+      {
+        "text": " from insurance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089355
+  },
+  {
+    "id": "60ddb4d7-906d-42d8-87ed-c1ff8ee9eaba",
+    "data": [
+      {
+        "text": "I was in an ",
+        "userDefined": false
+      },
+      {
+        "text": "accident",
+        "alias": "root_method_type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089355
+  },
+  {
+    "id": "fdca1153-48d7-4582-98ba-496848ecc685",
+    "data": [
+      {
+        "text": "I need to ",
+        "userDefined": false
+      },
+      {
+        "text": "claim",
+        "alias": "root_method_type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089355
+  },
+  {
+    "id": "c56376d6-b4af-437d-9a73-d2acb927fe94",
+    "data": [
+      {
+        "text": "I want to ",
+        "userDefined": false
+      },
+      {
+        "text": "claim",
+        "alias": "root_method_type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089355
+  },
+  {
+    "id": "0cbdbc03-dcff-40e9-be8b-109476912f97",
+    "data": [
+      {
+        "text": "I wish to ",
+        "userDefined": false
+      },
+      {
+        "text": "claim",
+        "alias": "root_method_type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      },
+      {
+        "text": " from the insurance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089355
+  },
+  {
+    "id": "1c3de6c9-1aa1-4865-9a53-fce0c080e208",
+    "data": [
+      {
+        "text": "Claim",
+        "alias": "root_method_type",
+        "meta": "@Method_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089355
+  },
+  {
+    "id": "00573b9a-c964-4f5c-9c0a-114dea732f38",
+    "data": [
+      {
+        "text": "Accident",
+        "alias": "root_method_type",
+        "meta": "@Method_Type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523089355
+  }
+]

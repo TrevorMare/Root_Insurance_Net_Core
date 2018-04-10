@@ -1,0 +1,42 @@
+{
+  "id": "2a23aab5-865a-43f4-831f-e430c04b4bb7",
+  "name": "33_Generate_Quotation",
+  "auto": true,
+  "contexts": [
+    "root_context",
+    "Generate_Quotation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Generate_Quotation",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523273913,
+  "fallbackIntent": false,
+  "events": []
+}

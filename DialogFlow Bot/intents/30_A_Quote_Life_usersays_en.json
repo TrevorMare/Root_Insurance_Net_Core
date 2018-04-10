@@ -1,0 +1,214 @@
+[
+  {
+    "id": "47825dc8-9986-4775-9fe8-13e48dba663a",
+    "data": [
+      {
+        "text": "5 million",
+        "alias": "qt_life_amount",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      },
+      {
+        "text": " rand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522577000
+  },
+  {
+    "id": "7489faa1-276f-4fcb-9881-5e63b7dc9089",
+    "data": [
+      {
+        "text": "25 000",
+        "alias": "qt_life_amount",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522577000
+  },
+  {
+    "id": "70b3737d-b683-4050-901d-2e0087df606e",
+    "data": [
+      {
+        "text": "5 M",
+        "alias": "qt_life_amount",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522577000
+  },
+  {
+    "id": "c2c5f95c-5a2d-4b3c-8873-20db8ac6b9a2",
+    "data": [
+      {
+        "text": "5M",
+        "alias": "qt_life_amount",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522577000
+  },
+  {
+    "id": "b79b1c42-f153-4bed-81b2-40160ad86afc",
+    "data": [
+      {
+        "text": "1.4 K",
+        "alias": "qt_life_amount",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522577000
+  },
+  {
+    "id": "954b31d4-f0ae-40c8-a35f-fe5c5eebe773",
+    "data": [
+      {
+        "text": "1.4K",
+        "alias": "qt_life_amount",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522577000
+  },
+  {
+    "id": "69006238-0bd9-48ed-9be8-bd2184c16822",
+    "data": [
+      {
+        "text": "500 hundred thousand",
+        "alias": "qt_life_amount",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522577000
+  },
+  {
+    "id": "5b60c69b-bfc2-4013-bd34-6150c8c82e54",
+    "data": [
+      {
+        "text": "5 million",
+        "alias": "qt_life_amount",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522577000
+  },
+  {
+    "id": "288a6229-ef93-4d03-9f74-be76cb08a7d8",
+    "data": [
+      {
+        "text": "15K",
+        "alias": "qt_life_amount",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522577000
+  },
+  {
+    "id": "4240731e-ddb8-4dca-9677-0fe345dcfb5f",
+    "data": [
+      {
+        "text": "Ten Thousand",
+        "alias": "qt_life_amount",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522577000
+  },
+  {
+    "id": "458effad-64a6-4bfe-aa6d-63408f166f05",
+    "data": [
+      {
+        "text": "25000",
+        "alias": "qt_life_amount",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522577000
+  },
+  {
+    "id": "610c3b53-5610-4282-9ce1-4ff4257e1585",
+    "data": [
+      {
+        "text": "Could you please cover me for ",
+        "userDefined": false
+      },
+      {
+        "text": "ten thousand",
+        "alias": "qt_life_amount",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522577000
+  },
+  {
+    "id": "123193bd-2a56-42c2-ac34-d6248afaf65a",
+    "data": [
+      {
+        "text": "Please set up the life insurance for ",
+        "userDefined": false
+      },
+      {
+        "text": "25K",
+        "alias": "qt_life_amount",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522577000
+  },
+  {
+    "id": "ce762661-fb06-443e-bd20-08f6b429e259",
+    "data": [
+      {
+        "text": "I wish to cover for ",
+        "userDefined": false
+      },
+      {
+        "text": "25000",
+        "alias": "qt_life_amount",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522577000
+  }
+]

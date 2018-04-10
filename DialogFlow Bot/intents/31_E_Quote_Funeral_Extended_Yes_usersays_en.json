@@ -1,0 +1,166 @@
+[
+  {
+    "id": "92bb7180-837a-4e40-8eac-284027a42930",
+    "data": [
+      {
+        "text": "confirm",
+        "alias": "qt_funeral_has_extended",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1522660266
+  },
+  {
+    "id": "b440d962-ba27-4478-ba6c-042b01ecbdfe",
+    "data": [
+      {
+        "text": "okay",
+        "alias": "qt_funeral_has_extended",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522660266
+  },
+  {
+    "id": "e5473295-2512-4450-bc25-efd1fc7a8fca",
+    "data": [
+      {
+        "text": "ok",
+        "alias": "qt_funeral_has_extended",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522660266
+  },
+  {
+    "id": "a65619b9-d4aa-4871-a185-23f5a9f54811",
+    "data": [
+      {
+        "text": "of course",
+        "alias": "qt_funeral_has_extended",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522660266
+  },
+  {
+    "id": "9a286f23-cbbf-4939-858c-d71df9961ccf",
+    "data": [
+      {
+        "text": "sure",
+        "alias": "qt_funeral_has_extended",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 1522660266
+  },
+  {
+    "id": "4c792520-b583-48e6-9598-66876a959032",
+    "data": [
+      {
+        "text": "I don\u0027t mind",
+        "alias": "qt_funeral_has_extended",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522660266
+  },
+  {
+    "id": "da18fc70-0ad8-4578-be24-b9a043a6d06a",
+    "data": [
+      {
+        "text": "yes",
+        "alias": "qt_funeral_has_extended",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522660266
+  },
+  {
+    "id": "adc53e44-bd1c-4bcb-b7d8-e4d97b27624b",
+    "data": [
+      {
+        "text": "that\u0027s correct",
+        "alias": "qt_funeral_has_extended",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522660266
+  },
+  {
+    "id": "cc137def-3fdd-432b-96d0-eefd9a075c24",
+    "data": [
+      {
+        "text": "I agree",
+        "alias": "qt_funeral_has_extended",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1522660266
+  },
+  {
+    "id": "ae576ffe-535c-412b-9161-b6839de8d300",
+    "data": [
+      {
+        "text": "do it",
+        "alias": "qt_funeral_has_extended",
+        "meta": "@Boolean",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1522660266
+  },
+  {
+    "id": "c68416ef-0baf-43e1-8ecf-b7da368e701e",
+    "data": [
+      {
+        "text": "exactly",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522660266
+  },
+  {
+    "id": "c03f0636-1e28-4ea3-9f33-3b1f554c79fb",
+    "data": [
+      {
+        "text": "sounds good",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522660266
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "id": "83567d19-3a27-49d9-aaa0-a09aaba51f68",
+  "name": "30_A_QuoteLife - Fallback",
+  "auto": false,
+  "contexts": [
+    "root_context",
+    "root_quotation_life"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sorry, I didn\u0027t get that. Could you please indicate the amount to insure for. This cover amount should be between 100000 rand and 5 million rand"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522585537,
+  "fallbackIntent": true,
+  "events": []
+}

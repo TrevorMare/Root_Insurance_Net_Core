@@ -1,0 +1,152 @@
+[
+  {
+    "id": "d70a9319-84c3-4826-8999-835a7364b2d7",
+    "data": [
+      {
+        "text": "Hi there root, my email address is ",
+        "userDefined": false
+      },
+      {
+        "text": "someone@gmail.com",
+        "alias": "root_email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522582723
+  },
+  {
+    "id": "125ae318-4ee1-4cd0-b1bb-0d19f58ed50c",
+    "data": [
+      {
+        "text": "Talk to Insurance application",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522582723
+  },
+  {
+    "id": "6ea4215d-0bdc-4acb-84d0-ef727a2967ed",
+    "data": [
+      {
+        "text": "Root Insure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522582723
+  },
+  {
+    "id": "0184e823-adc1-4aef-b2c3-e239da37a54a",
+    "data": [
+      {
+        "text": "Root insurance please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522582723
+  },
+  {
+    "id": "5e9eaa30-a3c8-4e4a-922e-82ff0d409284",
+    "data": [
+      {
+        "text": "Talk to Root Insurance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522582723
+  },
+  {
+    "id": "78bb9dd3-294d-4fc5-b698-9fb6cfc7ff27",
+    "data": [
+      {
+        "text": "Can I speak to root",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522582723
+  },
+  {
+    "id": "e25baab3-1254-4bbc-b301-56ea1cdad368",
+    "data": [
+      {
+        "text": "Can I get some insurace",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522582723
+  },
+  {
+    "id": "82eacde3-1f53-46cb-9014-c33ced5ceec4",
+    "data": [
+      {
+        "text": "I want to take out insurance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522582723
+  },
+  {
+    "id": "5fe765ed-3f06-4017-a072-664e00493b24",
+    "data": [
+      {
+        "text": "hi there root",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522582723
+  },
+  {
+    "id": "022044da-08e7-48ee-8128-7a570c9bd1d2",
+    "data": [
+      {
+        "text": "hey there root insurance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522582723
+  },
+  {
+    "id": "0fe9343a-0878-41cb-a500-1cf62d43c00b",
+    "data": [
+      {
+        "text": "I want to insure something",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522582723
+  },
+  {
+    "id": "f6bc8507-24e5-4067-b84e-767cc794cb31",
+    "data": [
+      {
+        "text": "can I speak to root insurance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522582723
+  }
+]

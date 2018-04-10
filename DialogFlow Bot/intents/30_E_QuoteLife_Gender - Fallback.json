@@ -1,0 +1,48 @@
+{
+  "id": "02522584-3813-4117-9228-0ab08dd2b15e",
+  "name": "30_E_QuoteLife_Gender - Fallback",
+  "auto": false,
+  "contexts": [
+    "root_context",
+    "root_quotation_life",
+    "root_quotation_life_gender"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life_gender",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I missed that. Could you please indicate if you are a male or female?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522586572,
+  "fallbackIntent": true,
+  "events": []
+}

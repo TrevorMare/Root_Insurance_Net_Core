@@ -1,0 +1,49 @@
+{
+  "id": "6405c2d0-b3c0-4dca-88e4-f05a3f809c3e",
+  "name": "30_C_Quote_Life_Education - repeat",
+  "auto": true,
+  "contexts": [
+    "root_quotation_life_education",
+    "root_context",
+    "root_quotation_life"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "30_C_Quote_Life_Education.30_C_Quote_Life_Education-repeat",
+      "affectedContexts": [
+        {
+          "name": "root_quotation_life_education",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "root_quotation_life",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Could you please specify your highest education level. We have the following options. No matric, Matric, Diploma, BTech, Undergraduate degree or professional degree."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522585943,
+  "fallbackIntent": false,
+  "events": []
+}
