@@ -18,12 +18,18 @@
         {
           "name": "root_quotation_gadget",
           "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "generate_quotation",
+          "parameters": {},
           "lifespan": 5
         }
       ],
       "parameters": [
         {
           "id": "1a17c5ad-28d7-4748-9708-3fc60517ed9e",
+          "required": false,
           "dataType": "@sys.any",
           "name": "qt_gadget_name",
           "value": "$qt_gadget_name",
@@ -44,7 +50,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1522663331,
+  "lastUpdate": 1523444287,
   "fallbackIntent": false,
   "events": []
 }

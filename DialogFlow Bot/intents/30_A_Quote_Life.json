@@ -24,6 +24,11 @@
           "name": "root_quotation_life_basic",
           "parameters": {},
           "lifespan": 5
+        },
+        {
+          "name": "save_state",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [
@@ -40,7 +45,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Thank you, please indicate what your basic monthly package is in rands."
+          "speech": "Thank you, just to confirm the amount you wish to cover for is $qt_life_amount .  Please indicate what your basic monthly package is in Rand."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -50,7 +55,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1522585585,
+  "lastUpdate": 1523449088,
   "fallbackIntent": false,
   "events": []
 }

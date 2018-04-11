@@ -31,6 +31,11 @@
           "name": "root_quotation_funeral_has_extended",
           "parameters": {},
           "lifespan": 5
+        },
+        {
+          "name": "save_state",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [
@@ -47,7 +52,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Please indicate if you have any extended family members you want to include"
+          "speech": "You indicated that you don\u0027t want any children included in the cover. Please indicate if you have any extended family members you want to include"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -57,7 +62,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1522659683,
+  "lastUpdate": 1523449290,
   "fallbackIntent": false,
   "events": []
 }

@@ -1,11 +1,11 @@
 [
   {
-    "id": "c0ec5219-ead1-4730-9c60-be43b7f92db9",
+    "id": "32b4e941-6891-427b-86c2-cb91b030e80d",
     "data": [
       {
         "text": "16",
         "alias": "qt_funeral_extended_ages",
-        "meta": "@sys.number-sequence",
+        "meta": "@sys.number-integer",
         "userDefined": true
       },
       {
@@ -15,35 +15,65 @@
       {
         "text": "eighteen",
         "alias": "qt_funeral_extended_ages",
-        "meta": "@sys.number-sequence",
+        "meta": "@sys.number-integer",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1523092407
+    "updated": 1523449586
   },
   {
-    "id": "13fec3d6-906b-4245-9778-ad436adb84f0",
+    "id": "2d955f79-679f-4fec-aa96-1b6a3689bb1a",
     "data": [
       {
         "text": "53",
         "alias": "qt_funeral_extended_ages",
-        "meta": "@sys.number-sequence",
+        "meta": "@sys.number-integer",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1523092407
+    "updated": 1523449586
   },
   {
-    "id": "837923d0-aa4a-488f-ad02-bca49b028df1",
+    "id": "838016c4-f46f-4918-a3ac-cd3ef5944874",
     "data": [
       {
-        "text": "15, 20, 5, 2",
+        "text": "15",
         "alias": "qt_funeral_extended_ages",
-        "meta": "@sys.number-sequence",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "qt_funeral_extended_ages",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "qt_funeral_extended_ages",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "alias": "qt_funeral_extended_ages",
+        "meta": "@sys.number-integer",
         "userDefined": true
       },
       {
@@ -53,21 +83,21 @@
       {
         "text": "1",
         "alias": "qt_funeral_extended_ages",
-        "meta": "@sys.number-sequence",
+        "meta": "@sys.number-integer",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1523092407
+    "updated": 1523449586
   },
   {
-    "id": "015decc4-3c1e-4588-a750-c524d15f0540",
+    "id": "d4a04e3d-8e26-4a19-920a-b0e01d97f2ac",
     "data": [
       {
         "text": "14",
         "alias": "qt_funeral_extended_ages",
-        "meta": "@sys.number-sequence",
+        "meta": "@sys.number-integer",
         "userDefined": true
       },
       {
@@ -77,12 +107,12 @@
       {
         "text": "13",
         "alias": "qt_funeral_extended_ages",
-        "meta": "@sys.number-sequence",
+        "meta": "@sys.number-integer",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1523092407
+    "updated": 1523449586
   }
 ]

@@ -25,6 +25,16 @@
           "name": "root_quotation_life_term",
           "parameters": {},
           "lifespan": 0
+        },
+        {
+          "name": "generate_quotation",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "save_state",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [
@@ -47,7 +57,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Thank you, please just wait a second while we generate the quotation."
+          "speech": "You indicated the term as $qt_life_term.original. Thank you for the information. Please wait a second while we generate the quotation."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -55,9 +65,9 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1522586921,
+  "lastUpdate": 1523449227,
   "fallbackIntent": false,
   "events": []
 }

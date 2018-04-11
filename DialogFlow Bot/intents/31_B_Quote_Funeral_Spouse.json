@@ -30,6 +30,11 @@
           "name": "root_quotation_funeral_has_children",
           "parameters": {},
           "lifespan": 5
+        },
+        {
+          "name": "save_state",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [
@@ -46,7 +51,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Do you have any children you want to include in the cover?"
+          "speech": "You indicated $qt_funeral_spouse.original to include your spouse. Do you have any children you want to include in the cover?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -56,7 +61,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1522655661,
+  "lastUpdate": 1523449266,
   "fallbackIntent": false,
   "events": []
 }

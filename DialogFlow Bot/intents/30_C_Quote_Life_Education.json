@@ -31,6 +31,11 @@
           "name": "root_quotation_life_smoker",
           "parameters": {},
           "lifespan": 5
+        },
+        {
+          "name": "save_state",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [
@@ -47,7 +52,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Half way there! Please indicate if you are a smoker?"
+          "speech": "To confirm the highest level of education is $qt_life_education.original .Please indicate if you are a smoker?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -57,7 +62,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1522586053,
+  "lastUpdate": 1523449132,
   "fallbackIntent": false,
   "events": []
 }

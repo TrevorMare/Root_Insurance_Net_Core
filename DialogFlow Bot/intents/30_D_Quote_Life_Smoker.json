@@ -30,6 +30,11 @@
           "name": "root_quotation_life",
           "parameters": {},
           "lifespan": 5
+        },
+        {
+          "name": "save_state",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [
@@ -46,7 +51,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Thank you. What gender are you?"
+          "speech": "Thank you, you answered $qt_life_smoker.original if you are smoker.  What gender are you?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -56,7 +61,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1522586220,
+  "lastUpdate": 1523449155,
   "fallbackIntent": false,
   "events": []
 }

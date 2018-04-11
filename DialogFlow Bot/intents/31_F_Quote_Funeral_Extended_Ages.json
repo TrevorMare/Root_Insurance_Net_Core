@@ -25,13 +25,18 @@
           "name": "root_quotation_funeral_extended_ages",
           "parameters": {},
           "lifespan": 0
+        },
+        {
+          "name": "generate_quotation",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [
         {
           "id": "4a81493c-0826-4284-8691-3d37c91c7431",
           "required": false,
-          "dataType": "@sys.number-sequence",
+          "dataType": "@sys.number-integer",
           "name": "qt_funeral_extended_ages",
           "value": "$qt_funeral_extended_ages",
           "isList": true
@@ -41,7 +46,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Please give us a second to generate the quotation."
+          "speech": "The ages of the extended family members is $qt_funeral_extended_ages.original Please give us a second to generate the quotation."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -49,9 +54,9 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1523092407,
+  "lastUpdate": 1523449586,
   "fallbackIntent": false,
   "events": []
 }

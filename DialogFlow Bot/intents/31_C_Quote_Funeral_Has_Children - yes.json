@@ -31,6 +31,11 @@
           "name": "root_quotation_funeral_number_children",
           "parameters": {},
           "lifespan": 5
+        },
+        {
+          "name": "save_state",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [
@@ -47,7 +52,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Please specify the number of children you want to include in the cover"
+          "speech": "You indicated that you do have children to be included in the cover. Please specify the number of children you want to include in the cover"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -57,7 +62,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1522659723,
+  "lastUpdate": 1523449312,
   "fallbackIntent": false,
   "events": []
 }

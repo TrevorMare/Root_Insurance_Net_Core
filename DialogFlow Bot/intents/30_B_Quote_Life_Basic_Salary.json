@@ -30,6 +30,11 @@
           "name": "root_quotation_life_education",
           "parameters": {},
           "lifespan": 5
+        },
+        {
+          "name": "save_state",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [
@@ -46,7 +51,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "OK, Could you please indicate your highest education level. We have the following options. No matric, Matric, Diploma, BTech, Undergraduate degree or professional degree."
+          "speech": "OK, your basic salary is $qt_life_basic .Could you please indicate your highest education level. We have the following options. No matric, Matric, Diploma, BTech, Undergraduate degree or professional degree."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -56,7 +61,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1522585828,
+  "lastUpdate": 1523449105,
   "fallbackIntent": false,
   "events": []
 }

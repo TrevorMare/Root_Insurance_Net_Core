@@ -49,7 +49,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Great, lets get you a quotation on that $Insurance_Type . Please indicate the amount you want to cover for. This amount must be between 10 000 rand and 50 000 rand."
+          "speech": "Great, lets get you a quotation on that $Insurance_Type . On each of the steps I will confirm the answer. If the answer is incorrect just tell me to go back to re-enter the answer. If the confirmation is correct just answer the next question. Please indicate the amount you want to cover for. This amount must be between 10 000 rand and 50 000 rand."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -59,7 +59,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1523091034,
+  "lastUpdate": 1523445892,
   "fallbackIntent": false,
   "events": []
 }

@@ -4,7 +4,7 @@
   "auto": true,
   "contexts": [
     "root_context",
-    "Generate_Quotation"
+    "generate_quotation"
   ],
   "responses": [
     {
@@ -16,7 +16,7 @@
           "lifespan": 5
         },
         {
-          "name": "Generate_Quotation",
+          "name": "generate_quotation",
           "parameters": {},
           "lifespan": 5
         }
@@ -36,7 +36,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1523273913,
+  "lastUpdate": 1523444254,
   "fallbackIntent": false,
   "events": []
 }

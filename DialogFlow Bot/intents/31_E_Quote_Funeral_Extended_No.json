@@ -26,11 +26,22 @@
           "name": "root_quotation_funeral",
           "parameters": {},
           "lifespan": 5
+        },
+        {
+          "name": "generate_quotation",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "save_state",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [
         {
           "id": "7995742b-09ad-4f5b-a70f-aa45417df1dc",
+          "required": false,
           "dataType": "@Boolean",
           "name": "qt_funeral_has_extended",
           "value": "$qt_funeral_has_extended",
@@ -41,7 +52,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "OK, please wait a second while we fetch you the best quote we can."
+          "speech": "You indicated that you don\u0027t have any extended family members to be included. Please wait a second while we fetch you the best quote we can."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -51,7 +62,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1522660141,
+  "lastUpdate": 1523449374,
   "fallbackIntent": false,
   "events": []
 }

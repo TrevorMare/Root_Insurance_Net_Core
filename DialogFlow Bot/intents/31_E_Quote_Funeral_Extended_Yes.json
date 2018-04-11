@@ -47,7 +47,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Please indicate the ages of the extended family members."
+          "speech": "You indicated that you do have extended family members to be included. Please indicate the ages of the extended family members."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -57,7 +57,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1522661312,
+  "lastUpdate": 1523448940,
   "fallbackIntent": false,
   "events": []
 }

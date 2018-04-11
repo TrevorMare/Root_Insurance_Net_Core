@@ -50,7 +50,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Let\u0027s see if we can get you a quote on $Insurance_Type . Please indicate the amount you wish to insure for. This amount should be between 100 000 rand and 5 million rand."
+          "speech": "Let\u0027s see if we can get you a quote on $Insurance_Type . On each of the steps I will confirm the answer. If the answer is incorrect just tell me to go back to re-enter the answer. If the confirmation is correct just answer the next question. Please indicate the amount you wish to insure for. This amount should be between 100 000 rand and 5 million rand."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -60,7 +60,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1522584906,
+  "lastUpdate": 1523445609,
   "fallbackIntent": false,
   "events": []
 }
