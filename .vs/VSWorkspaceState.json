@@ -1,8 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\DialogFlow Bot\\entities",
-    "\\DialogFlow Bot\\intents"
+    "\\DialogFlow Bot"
   ],
   "PreviewInSolutionExplorer": false
 }
