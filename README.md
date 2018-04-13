@@ -43,6 +43,32 @@ As a simple example, you would typically start with this.
   * Once any one of these option intents is satisfied, You would ask your first question regarding the question. You would then also add a new output context specific to the option e.g. "option_1_context" or "option_2_context"
 * From here on out, just rinse and repeat.  
 
+## Root Insurance Api
+The **RootInsurance.Api** project is a wrapper around the Root's Insurance Web Api. This project was developed in .net Core 2.0 and still needs some work as not all of the calls has been implemented / tested yet.
+The Basics for the example that works with the chat bot is implemented. Here is the list of features currently supported.
+* Get Gadget Models (Returns a list of gadgets that can be insured)
+* Get a life cover quotation
+* Get funeral cover quotation
+* Get gadget quotation
+* Create a Policy Holder
+* Get Policy Holders
+* Get Policy holder by Unique Id
+* Update a policy holder
+
+There is quite a list of outstanding features that needs to be implemented and tested before the Api Wrapper is complete.
+
+To use this library it is as simple as this:
+```
+// Remember to set the sandbox mode to true, the default value is false and the wrapper will then call the live site
+var rootApiConfig = new RootInsurance.Api.Configuration.Config()
+{
+    SandboxMode = true,
+    RootApiKey = "Your Root Api Key Here"
+};
+var rootApi = new RootInsurance.Api.ApiManager(rootApiConfig);
+var gadgetModels = rootApi.Quote.Gadget.ListQuoteGadgetModels().Result;
+```
+
 ## ngrok
 What can I say about this awesome tool. In short, it exposes your localhost port to a public http/https port. This makes it a really easy way to debug your code. The reason I needed this is so that DialogFlow can post to my localhost projects without me having to
 set up a server with a static IP or anything. Just start the application, and point the DialogFlow to the exposed port on ngrok. This can be done by going to the Fulfillment tab, Enable the web hook and pasting the https address into the webhook address. [Here](https://ngrok.com/docs#expose) is the documentation if you need some more information on options you can pass in but in all, I only used
@@ -53,12 +79,12 @@ Run the application as an Administrator or at least from a command line started 
 If you are running the project in Docker, it is as simple as executing the following line
 
 ```
-ngrok.exe http **PORT**
+ngrok.exe http PORT
 ```
 
 If you are running the project in IIS, you need to add the host header option when starting ngrok
 ```
-ngrok.exe http -host-header="localhost:**PORT**" **PORT**
+ngrok.exe http -host-header="localhost:PORT" PORT
 ```
 
 
