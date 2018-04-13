@@ -46,6 +46,9 @@ As a simple example, you would typically start with this.
 ## Root Insurance Api Wrapper
 The **RootInsurance.Api** project is a wrapper around the Root's Insurance Web Api. This project was developed in .net Core 2.0 and still needs some work as not all of the calls has been implemented / tested yet.
 The Basics for the example that works with the chat bot is implemented. Here is the list of features currently supported.
+
+** NOTE THAT OF THE CURRENCY VALUES ARE PASSED IN AS CENTS AND NOT RANDS **
+
 * Get Gadget Models (Returns a list of gadgets that can be insured)
 * Get life cover quotation
 * Get funeral cover quotation
@@ -68,6 +71,15 @@ var rootApiConfig = new RootInsurance.Api.Configuration.Config()
 var rootApi = new RootInsurance.Api.ApiManager(rootApiConfig);
 var gadgetModels = rootApi.Quote.Gadget.ListQuoteGadgetModels().Result;
 ```
+
+## Docker RethinkDB
+To spin up a new RethinkDB instance on Docker, the easiest way I found was by using the Kitematic tool. On newer versions of Docker this can be installed directly from Docker. 
+If you are running an older version of Docker, you download [Kitematic](https://kitematic.com/) you can just go ahead and copy the folder into the Installation Folder of Docker. The default path should be "Drive:\Program Files\Docker".
+
+When docker is started, you can right click on the docker icon and then click on Kitematic to open the application. Once this opens, just search the templates for RethinkDB and this will download and create a RethinkDB instance in Docker. Once
+you start this instance, it will provide you with the Rethink DB management UI on one of the ports as well as the RethinkDB Api on another port.
+
+You can check out this YouTube video on how to [Get Started](https://www.youtube.com/watch?v=UUZD7PCBbHg)
 
 ## ngrok
 What can I say about this awesome tool. In short, it exposes your localhost port to a public http/https port. This makes it a really easy way to debug your code. The reason I needed this is so that DialogFlow can post to my localhost projects without me having to
