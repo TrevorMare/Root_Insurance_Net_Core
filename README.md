@@ -6,7 +6,9 @@ Since I have not worked with [Google's DialogFlow](https://dialogflow.com/) yet,
 Secondly I wanted to play with [Docker](https://www.docker.com/) and see if I can put down a .net Core Web Api on Linux and use this as the communication link between the chat bot and the Root Api. Since I needed
 to save the state of the chat bot interactions, I also decided to play around with [RethinkDB](https://www.rethinkdb.com/) hosted in Docker.
 
-I also made use of [ngrok](https://ngrok.com/) and will definitely use this tool again in future. 
+I also made use of [ngrok](https://ngrok.com/) and will definitely use this awesome tool again in future. 
+
+As a side note, the .net Core applications was built in Visual Studio 2017, and I am running on a Windows 10 platform with docker installed.
 
 This project is by no means complete yet and I think this might just be the starting point of it, but I think I did manage to get all the enviroments and Api's working without to much problems.
 
@@ -41,7 +43,23 @@ As a simple example, you would typically start with this.
   * Once any one of these option intents is satisfied, You would ask your first question regarding the question. You would then also add a new output context specific to the option e.g. "option_1_context" or "option_2_context"
 * From here on out, just rinse and repeat.  
 
-##ngrok
+## ngrok
+What can I say about this awesome tool. In short, it exposes your localhost port to a public http/https port. This makes it a really easy way to debug your code. The reason I needed this is so that DialogFlow can post to my localhost projects without me having to
+set up a server with a static IP or anything. Just start the application, and point the DialogFlow to the exposed port on ngrok. This can be done by going to the Fulfillment tab, Enable the web hook and pasting the https address into the webhook address. [Here](https://ngrok.com/docs#expose) is the documentation if you need some more information on options you can pass in but in all, I only used
+one of the options.
+
+### Gotchas & Tips
+Run the application as an Administrator or at least from a command line started in administrator mode.
+If you are running the project in Docker, it is as simple as executing the following line
+
+```
+ngrok.exe http **PORT**
+```
+
+If you are running the project in IIS, you need to add the host header option when starting ngrok
+```
+ngrok.exe http -host-header="localhost:**PORT**" **PORT**
+```
 
 
-##More details to follow...
+## More details to follow...
