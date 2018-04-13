@@ -43,11 +43,11 @@ As a simple example, you would typically start with this.
   * Once any one of these option intents is satisfied, You would ask your first question regarding the question. You would then also add a new output context specific to the option e.g. "option_1_context" or "option_2_context"
 * From here on out, just rinse and repeat.  
 
-## Root Insurance Api
+## Root Insurance Api Wrapper
 The **RootInsurance.Api** project is a wrapper around the Root's Insurance Web Api. This project was developed in .net Core 2.0 and still needs some work as not all of the calls has been implemented / tested yet.
 The Basics for the example that works with the chat bot is implemented. Here is the list of features currently supported.
 * Get Gadget Models (Returns a list of gadgets that can be insured)
-* Get a life cover quotation
+* Get life cover quotation
 * Get funeral cover quotation
 * Get gadget quotation
 * Create a Policy Holder

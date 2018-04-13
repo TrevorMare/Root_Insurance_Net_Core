@@ -28,9 +28,5 @@ namespace RootInsurance.Api.RootModules.Quotation
         }
         #endregion
 
-
-
-
-
     }
 }

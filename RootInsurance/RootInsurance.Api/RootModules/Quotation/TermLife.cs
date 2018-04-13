@@ -40,8 +40,16 @@ namespace RootInsurance.Api.RootModules.Quotation
                     age = age
                 });
         }
+        /// <summary>
+        /// Generates a qoute for life insurance
+        /// </summary>
+        /// <param name="lifeCoverGetQuote">A strongly typed model of the life cover values</param>
+        /// <returns></returns>
+        public async Task<List<Models.QuoteResponse>> RequestQuote(Models.LifeCoverGetQuote lifeCoverGetQuote)
+        {
+            return await this.RequestQuote(lifeCoverGetQuote.CoverAmount, lifeCoverGetQuote.CoverPeriod, lifeCoverGetQuote.BasicIncomePerMonth, lifeCoverGetQuote.EducationStatus, lifeCoverGetQuote.Smoker, lifeCoverGetQuote.Gender, lifeCoverGetQuote.Age);
+        }
         #endregion
-
 
     }
 }

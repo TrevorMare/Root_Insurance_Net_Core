@@ -41,6 +41,16 @@ namespace RootInsurance.Api.RootModules.Quotation
                     extended_family_ages = extendedFamilyAges
                 });
         }
+        /// <summary>
+        /// Requests a quotation for funeral cover
+        /// </summary>
+        /// <param name="funeralCover">A strongly typed model of the required funeral cover</param>
+        /// <returns></returns>
+        public async Task<List<Models.QuoteResponse>> RequestQuote(Models.FuneralCoverGetQuote funeralCover)
+        {
+            return await this.RequestQuote(funeralCover.CoverAmount, funeralCover.HasSpouse, funeralCover.NumberOfChildren, funeralCover.ExtendedFamilyAges);
+        }
         #endregion
+
     }
 }

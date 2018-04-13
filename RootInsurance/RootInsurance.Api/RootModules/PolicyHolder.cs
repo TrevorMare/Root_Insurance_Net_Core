@@ -8,6 +8,7 @@ namespace RootInsurance.Api.RootModules
     public class PolicyHolder
     {
 
+        #region Methods
         /// <summary>
         /// Creates a new policy holder
         /// </summary>
@@ -18,7 +19,7 @@ namespace RootInsurance.Api.RootModules
         /// <param name="first_name">Policyholder's legal first name.</param>
         /// <param name="lastName">Policyholder's legal last name.</param>
         /// <param name="email">Policyholder's contact email address.</param>
-        /// <param name="cellPhone"> Cellphone number </param>
+        /// <param name="cellPhone">Cellphone number </param>
         /// <param name="cellIdIso">ISO Code for cellphone number</param>
         /// <param name="appData">Additional data to be stored on the entity</param>
         public async Task<Models.PolicyHolderResponse> CreatePolicyHolder(string id, Common.E_IdentificationType identificationType, string idCountryIso, string dateOfBirth, string firstName, string lastName, string email, string cellPhone, string cellIdIso, object appData)
@@ -46,6 +47,16 @@ namespace RootInsurance.Api.RootModules
                     cellphone = (string.IsNullOrEmpty(cellPhone) ? null : new { number = cellPhone, country = cellIdIso }),
                     app_data = appData
                 });
+        }
+
+        /// <summary>
+        /// Creates a new policy holder
+        /// </summary>
+        /// <param name="policyHolderCreate"></param>
+        /// <returns></returns>
+        public async Task<Models.PolicyHolderResponse> CreatePolicyHolder(Models.PolicyHolderCreate policyHolderCreate)
+        {
+            return await this.CreatePolicyHolder(policyHolderCreate.Id, policyHolderCreate.IdentificationType, policyHolderCreate.IdCountryIso, policyHolderCreate.DateOfBirth, policyHolderCreate.FirstName, policyHolderCreate.LastName, policyHolderCreate.Email, policyHolderCreate.CellPhone, policyHolderCreate.CellPhoneIso, policyHolderCreate.AppData);
         }
 
         /// <summary>
@@ -90,6 +101,17 @@ namespace RootInsurance.Api.RootModules
                     app_data = appData
                 });
         }
+
+        /// <summary>
+        /// Updates an existing policy holder's information
+        /// </summary>
+        /// <param name="policyHolderUpdate"></param>
+        /// <returns></returns>
+        public async Task<Models.PolicyHolderResponse> UpdatePolicyHolderByUID(Models.PolicyHolderUpdate policyHolderUpdate)
+        {
+            return await this.UpdatePolicyHolderByUID(policyHolderUpdate.PolicyHolderId, policyHolderUpdate.Email, policyHolderUpdate.CellPhone, policyHolderUpdate.CellPhoneCountry, policyHolderUpdate.AppData);
+        }
+        #endregion
 
     }
 }
