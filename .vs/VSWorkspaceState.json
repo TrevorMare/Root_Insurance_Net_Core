@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\DialogFlow Bot",
-    "\\RootInsurance",
-    "\\RootInsurance\\RootInsurance.Api"
+    "\\GoogleDialogFlow\\GoogleDialogFlow.API",
+    "\\RootInsurance\\RootInsurance.SDK",
+    "\\RootInsurance\\RootInsurance.SDK\\Interfaces"
   ],
-  "SelectedNode": "\\RootInsurance\\RootInsurance.sln",
+  "SelectedNode": "\\GoogleDialogFlow",
   "PreviewInSolutionExplorer": false
 }

@@ -3,8 +3,8 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.0</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
-    <ProjectGuid>9b033728-bb63-4e0e-b705-29916bc3ac5b</ProjectGuid>
-    <DockerLaunchBrowser>True</DockerLaunchBrowser>
+    <ProjectGuid>1acbd267-7ac0-4bbd-9979-12721b90565e</ProjectGuid>
+    <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>http://localhost:{ServicePort}/api/values</DockerServiceUrl>
     <DockerServiceName>googledialogflow.api</DockerServiceName>
   </PropertyGroup>
@@ -14,6 +14,5 @@
     </None>
     <None Include="docker-compose.yml" />
     <None Include=".dockerignore" />
-    <None Include="docker-compose.ci.build.yml" />
   </ItemGroup>
 </Project>
