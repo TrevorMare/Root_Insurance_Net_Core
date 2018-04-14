@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RootInsurance.Api
+namespace RootInsurance.SDK
 {
     public class ApiManager
     {

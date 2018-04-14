@@ -43,11 +43,11 @@ As a simple example, you would typically start with this.
   * Once any one of these option intents is satisfied, You would ask your first question regarding the question. You would then also add a new output context specific to the option e.g. "option_1_context" or "option_2_context"
 * From here on out, just rinse and repeat.  
 
-## Root Insurance Api Wrapper
-The **RootInsurance.Api** project is a wrapper around the Root's Insurance Web Api. This project was developed in .net Core 2.0 and still needs some work as not all of the calls has been implemented / tested yet.
+## Root Insurance SDK
+The **RootInsurance.SDK** project is a wrapper around the Root's Insurance Web Api. This project was developed in .net Core 2.0 and still needs some work as not all of the calls has been implemented / tested yet.
 The Basics for the example that works with the chat bot is implemented. Here is the list of features currently supported.
 
-** NOTE THAT OF THE CURRENCY VALUES ARE PASSED IN AS CENTS AND NOT RANDS **
+__NOTE THAT OF THE CURRENCY VALUES ARE PASSED IN AS CENTS AND NOT RANDS__
 
 * Get Gadget Models (Returns a list of gadgets that can be insured)
 * Get life cover quotation
@@ -63,12 +63,12 @@ There is quite a list of outstanding features that needs to be implemented and t
 To use this library it is as simple as this:
 ```
 // Remember to set the sandbox mode to true, the default value is false and the wrapper will then call the live site
-var rootApiConfig = new RootInsurance.Api.Configuration.Config()
+var rootApiConfig = new RootInsurance.SDK.Configuration.Config()
 {
     SandboxMode = true,
     RootApiKey = "Your Root Api Key Here"
 };
-var rootApi = new RootInsurance.Api.ApiManager(rootApiConfig);
+var rootApi = new RootInsurance.SDK.ApiManager(rootApiConfig);
 var gadgetModels = rootApi.Quote.Gadget.ListQuoteGadgetModels().Result;
 ```
 

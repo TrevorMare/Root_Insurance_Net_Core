@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace RootInsurance.Api.Common
+namespace RootInsurance.SDK.Common
 {
     public static class QuoteTypes
     {

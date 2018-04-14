@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RootInsurance.Api.RootModules.Quotation
+namespace RootInsurance.SDK.RootModules.Quotation
 {
     public class Gadget
     {

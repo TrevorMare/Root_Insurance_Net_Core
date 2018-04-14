@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace RootInsurance.Api.Models
+namespace RootInsurance.SDK.Models
 {
     public class PolicyHolderIdResponse
     {

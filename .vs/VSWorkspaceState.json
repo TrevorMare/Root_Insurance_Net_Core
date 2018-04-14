@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\DialogFlow Bot",
+    "\\RootInsurance",
     "\\RootInsurance\\RootInsurance.Api"
   ],
-  "SelectedNode": "\\RootInsurance",
+  "SelectedNode": "\\RootInsurance\\RootInsurance.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -5,7 +5,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RootInsurance.Api.WebExtensions
+namespace RootInsurance.SDK.WebExtensions
 {
     /// <summary>
     /// This is a helper class to call the root web api and resolve the responses

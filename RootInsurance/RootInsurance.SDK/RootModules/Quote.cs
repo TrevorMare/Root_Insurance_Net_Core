@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace RootInsurance.Api.RootModules
+namespace RootInsurance.SDK.RootModules
 {
 
     /// <summary>

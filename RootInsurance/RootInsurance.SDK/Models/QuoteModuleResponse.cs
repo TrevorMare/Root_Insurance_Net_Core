@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace RootInsurance.Api.Models
+namespace RootInsurance.SDK.Models
 {
     public class QuoteModuleResponse
     {

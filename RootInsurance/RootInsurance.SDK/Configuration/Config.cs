@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace RootInsurance.Api.Configuration
+namespace RootInsurance.SDK.Configuration
 {
     public class Config
     {

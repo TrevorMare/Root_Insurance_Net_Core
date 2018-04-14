@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RootInsurance.Api.RootModules
+namespace RootInsurance.SDK.RootModules
 {
     public class PolicyHolder
     {
