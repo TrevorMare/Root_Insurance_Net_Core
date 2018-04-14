@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  googledialogflow.api:
+    image: googledialogflow.api
+    build:
+      context: .
+      dockerfile: GoogleDialogFlow.API/Dockerfile

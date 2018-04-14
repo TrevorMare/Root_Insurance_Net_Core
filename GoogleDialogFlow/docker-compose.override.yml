@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  googledialogflow.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"

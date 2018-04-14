@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GoogleDialogFlow.API.Core\GoogleDialogFlow.API.Core.csproj" />
+    <ProjectReference Include="..\GoogleDialogFlow.API.Data\GoogleDialogFlow.API.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="RootInsurance.SDK">
+      <HintPath>..\..\RootInsurance\RootInsurance.SDK\bin\Debug\netcoreapp2.0\RootInsurance.SDK.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

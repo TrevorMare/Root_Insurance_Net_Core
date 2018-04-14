@@ -2,8 +2,9 @@
 
 namespace RootInsurance.SDK
 {
-    public class ApiManager
+    public class ApiManager : Interfaces.IApiManager
     {
+
         #region Static Properties
         internal static Configuration.Config Config { get; set; }
         internal static WebExtensions.WebHelper WebHelper { get; set; }

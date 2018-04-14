@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleDialogFlow.API.Core", "GoogleDialogFlow.API.Core\GoogleDialogFlow.API.Core.csproj", "{4E21782B-C9CA-4639-A270-45042945666B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleDialogFlow.API.Data", "GoogleDialogFlow.API.Data\GoogleDialogFlow.API.Data.csproj", "{17012784-8DB8-4035-AAC2-11F31524EC3E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleDialogFlow.API", "GoogleDialogFlow.API\GoogleDialogFlow.API.csproj", "{FD807536-0226-4BF0-B87E-400FC6D66862}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E21782B-C9CA-4639-A270-45042945666B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E21782B-C9CA-4639-A270-45042945666B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E21782B-C9CA-4639-A270-45042945666B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E21782B-C9CA-4639-A270-45042945666B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17012784-8DB8-4035-AAC2-11F31524EC3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17012784-8DB8-4035-AAC2-11F31524EC3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17012784-8DB8-4035-AAC2-11F31524EC3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17012784-8DB8-4035-AAC2-11F31524EC3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD807536-0226-4BF0-B87E-400FC6D66862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD807536-0226-4BF0-B87E-400FC6D66862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD807536-0226-4BF0-B87E-400FC6D66862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD807536-0226-4BF0-B87E-400FC6D66862}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12D675EC-A516-4319-81AF-1531AD03260F}
+	EndGlobalSection
+EndGlobal
